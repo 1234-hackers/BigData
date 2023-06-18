@@ -1,0 +1,512 @@
+[
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c173"
+    },
+    "name": "CYNTHIA WANJIKU GACHURE",
+    "gender": "Female",
+    "dob": {
+      "$date": "1999-01-05T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "1",
+    "ipNo": null,
+    "phone": "0706169359",
+    "email": "",
+    "county": "KIAMBU",
+    "locality": "KIKUYU",
+    "nokName": "FREDRICK",
+    "nokRShip": "FATHER",
+    "nokPhone": "0722337649",
+    "date": {
+      "$date": "2019-12-03T06:05:22.845Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c174"
+    },
+    "name": "MARY NJOKI IRUNGU",
+    "gender": "Female",
+    "dob": {
+      "$date": {
+        "$numberLong": "-62812800000"
+      }
+    },
+    "doesntKnowDOB": false,
+    "opNo": "2",
+    "ipNo": null,
+    "phone": "0722789862",
+    "email": "",
+    "county": "KIAMBU",
+    "locality": "GITHUNGURI",
+    "nokName": "GEORGE",
+    "nokRShip": "NGANGA",
+    "nokPhone": "0",
+    "date": {
+      "$date": "2019-12-03T06:12:47.554Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c175"
+    },
+    "name": "GEORGE NJENGA BORO",
+    "gender": "Male",
+    "dob": {
+      "$date": "1975-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "3",
+    "ipNo": null,
+    "phone": "0729780728",
+    "email": "",
+    "county": "KIAMBU",
+    "locality": "GATHIGA",
+    "nokName": "GLADYS",
+    "nokRShip": "WIFE",
+    "nokPhone": "0720456820",
+    "date": {
+      "$date": "2019-12-03T06:39:52.644Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c176"
+    },
+    "name": "MUTHONI NJOKI NJOKI",
+    "gender": "Female",
+    "dob": {
+      "$date": "1979-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "4",
+    "ipNo": null,
+    "phone": "0710655137",
+    "email": "",
+    "county": "KIAMABU",
+    "locality": "THIKA",
+    "nokName": "NGANGA",
+    "nokRShip": "SPOUSE",
+    "nokPhone": "0710655137",
+    "date": {
+      "$date": "2019-12-03T06:52:18.985Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c177"
+    },
+    "name": "FIDELIS WANGU WANGU",
+    "gender": "Male",
+    "dob": {
+      "$date": "1977-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "5",
+    "ipNo": null,
+    "phone": "0729904677",
+    "email": "",
+    "county": "KIAMBU",
+    "locality": "WANGIGE",
+    "nokName": "STEPHEN",
+    "nokRShip": "SPOUSE",
+    "nokPhone": "0716154040",
+    "date": {
+      "$date": "2019-12-03T06:57:33.926Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c178"
+    },
+    "name": "SUSAN NJERI NJERI",
+    "gender": "Female",
+    "dob": {
+      "$date": "1981-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "6",
+    "ipNo": null,
+    "phone": "0725429029",
+    "email": "",
+    "county": null,
+    "locality": "UTHIRU",
+    "nokName": "DORINE",
+    "nokRShip": "DA",
+    "nokPhone": "0726429826",
+    "date": {
+      "$date": "2019-12-03T07:00:54.544Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c179"
+    },
+    "name": "HARRISON WANYOKO WANYOKO",
+    "gender": "Male",
+    "dob": {
+      "$date": "1979-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "7",
+    "ipNo": null,
+    "phone": "0712345678",
+    "email": "",
+    "county": "NAKUR",
+    "locality": "NAKURU",
+    "nokName": "SISTER",
+    "nokRShip": "SISTER",
+    "nokPhone": "07",
+    "date": {
+      "$date": "2019-12-04T06:52:23.667Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c17a"
+    },
+    "name": "ASHLEY WANJIRU W",
+    "gender": "Female",
+    "dob": {
+      "$date": "2011-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "8",
+    "ipNo": null,
+    "phone": "0724115947",
+    "email": "",
+    "county": "K",
+    "locality": "KIAMBU",
+    "nokName": "ANN",
+    "nokRShip": "MUM",
+    "nokPhone": "0724115947",
+    "date": {
+      "$date": "2019-12-04T06:55:10.190Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c17b"
+    },
+    "name": "KAMAU MBURU MBURU",
+    "gender": "Male",
+    "dob": {
+      "$date": {
+        "$numberLong": "-347155200000"
+      }
+    },
+    "doesntKnowDOB": false,
+    "opNo": "9",
+    "ipNo": null,
+    "phone": "0711219211",
+    "email": "",
+    "county": null,
+    "locality": "KIAMBU",
+    "nokName": "BROTHER",
+    "nokRShip": "BROTHER",
+    "nokPhone": "0721121",
+    "date": {
+      "$date": "2019-12-04T07:11:31.771Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c17c"
+    },
+    "name": "FLORENCE NJERI NJERI",
+    "gender": "Female",
+    "dob": {
+      "$date": {
+        "$numberLong": "-788918400000"
+      }
+    },
+    "doesntKnowDOB": false,
+    "opNo": "10",
+    "ipNo": null,
+    "phone": "0712345678",
+    "email": "",
+    "county": null,
+    "locality": "KIAMBU",
+    "nokName": "DAUGHTE",
+    "nokRShip": "01",
+    "nokPhone": "1",
+    "date": {
+      "$date": "2019-12-04T07:18:23.793Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c17d"
+    },
+    "name": "PETER MWAURA WAWERU",
+    "gender": "Male",
+    "dob": {
+      "$date": "2010-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "11",
+    "ipNo": null,
+    "phone": "0704181433",
+    "email": "",
+    "county": "KIAMBU",
+    "locality": "NDEIYA",
+    "nokName": "FREDRICK",
+    "nokRShip": "FATHER",
+    "nokPhone": "07",
+    "date": {
+      "$date": "2019-12-04T07:20:21.307Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c17e"
+    },
+    "name": "SHUKYNE ERONDE ERONDE",
+    "gender": "Female",
+    "dob": {
+      "$date": "2002-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "12",
+    "ipNo": null,
+    "phone": "0723489567",
+    "email": "",
+    "county": "NAI",
+    "locality": "KANGEMI",
+    "nokName": "MOTHER",
+    "nokRShip": "M",
+    "nokPhone": "0723489567",
+    "date": {
+      "$date": "2019-12-04T07:24:31.106Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c17f"
+    },
+    "name": "JULIE ADHIAMBO ADHIAMBO",
+    "gender": "Female",
+    "dob": {
+      "$date": "1997-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "13",
+    "ipNo": null,
+    "phone": "0711472730",
+    "email": "",
+    "county": null,
+    "locality": "UTHIRU",
+    "nokName": "EMILY",
+    "nokRShip": "MUM",
+    "nokPhone": "0721511955",
+    "date": {
+      "$date": "2019-12-04T07:26:52.631Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c180"
+    },
+    "name": "JANE AKINYI AKINYI",
+    "gender": "Female",
+    "dob": {
+      "$date": "1972-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "14",
+    "ipNo": null,
+    "phone": "0700040622",
+    "email": "",
+    "county": "KIAMBU",
+    "locality": "WANGIGE",
+    "nokName": "SPOUSE",
+    "nokRShip": "S",
+    "nokPhone": "0700040622",
+    "date": {
+      "$date": "2019-12-04T07:29:50.813Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c181"
+    },
+    "name": "IRENE SHANTIA SHANITIA",
+    "gender": "Female",
+    "dob": {
+      "$date": "2013-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "15",
+    "ipNo": null,
+    "phone": "0718773369",
+    "email": "",
+    "county": null,
+    "locality": "DAGORETTI",
+    "nokName": "WILSON",
+    "nokRShip": "DAD",
+    "nokPhone": "0718217623",
+    "date": {
+      "$date": "2019-12-04T07:33:27.198Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c182"
+    },
+    "name": "MARY NYAMBURA NYAMBURA",
+    "gender": "Female",
+    "dob": {
+      "$date": {
+        "$numberLong": "-915148800000"
+      }
+    },
+    "doesntKnowDOB": false,
+    "opNo": "16",
+    "ipNo": null,
+    "phone": "07231717836",
+    "email": "",
+    "county": "NAI",
+    "locality": "RUAKA",
+    "nokName": "SON",
+    "nokRShip": "S",
+    "nokPhone": "07",
+    "date": {
+      "$date": "2019-12-04T07:42:52.159Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c183"
+    },
+    "name": "JAMES GISEMBA NYAGENKE",
+    "gender": "Male",
+    "dob": {
+      "$date": "1974-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "17",
+    "ipNo": null,
+    "phone": "0722420938",
+    "email": "",
+    "county": "KIAMBU",
+    "locality": "UTHIRU",
+    "nokName": "S",
+    "nokRShip": "S",
+    "nokPhone": "11",
+    "date": {
+      "$date": "2019-12-04T07:45:21.394Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c184"
+    },
+    "name": "ANISA AHMED ABDULAHI",
+    "gender": "Female",
+    "dob": {
+      "$date": "2010-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "18",
+    "ipNo": null,
+    "phone": "0721461886",
+    "email": "",
+    "county": "NAIROBI",
+    "locality": "WESTLANDS",
+    "nokName": "MUM",
+    "nokRShip": "DA",
+    "nokPhone": "11",
+    "date": {
+      "$date": "2019-12-04T07:48:30.641Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c185"
+    },
+    "name": "SAMUEL NJENGA NYAMWATHI",
+    "gender": "Male",
+    "dob": {
+      "$date": "1981-01-01T00:00:00Z"
+    },
+    "doesntKnowDOB": false,
+    "opNo": "19",
+    "ipNo": "2278/19",
+    "phone": "0724289165",
+    "email": "",
+    "county": "KAJIADO",
+    "locality": "KAJIANDO",
+    "nokName": "CARO",
+    "nokRShip": "SPOUSE",
+    "nokPhone": "111",
+    "date": {
+      "$date": "2019-12-04T07:54:54.504Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  },
+  {
+    "_id": {
+      "$oid": "62a3ddfc7148e4fb10d7c186"
+    },
+    "name": "OMAR ALI MWINYI",
+    "gender": "Male",
+    "dob": {
+      "$date": {
+        "$numberLong": "-63158400000"
+      }
+    },
+    "doesntKnowDOB": false,
+    "opNo": "20",
+    "ipNo": null,
+    "phone": "0712345678",
+    "email": "",
+    "county": null,
+    "locality": "NAIROBI",
+    "nokName": "WIFE",
+    "nokRShip": "WIFE",
+    "nokPhone": "111",
+    "date": {
+      "$date": "2019-12-04T07:56:41.773Z"
+    },
+    "country": "Kenya",
+    "region": "Kenya"
+  }
+]

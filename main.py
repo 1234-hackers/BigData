@@ -1,5 +1,5 @@
 import polars as pl
-import polars.selectors as cs
+import polars.selectors as cs  
 import numpy as np
 import seaborn as sb
 from pymongo import MongoClient
@@ -49,12 +49,15 @@ def write_json(csr):
     with open('jsonData/'+ de_time +'.json', 'w') as file:
         file.write(json_data)
 
+#write_json(patients)
 
 
-write_json(patients)
-df = pl.read_json("jsonData/data.json")
+df = pl.read_json("jsonData/20230613 185207779305.json")
 
-df.select(pl.col("a").mean())
+print(df)
 
-df.select(~cs.by_name("foo", "bar"))
+df.filter(pl.col("gender") == "female").head()
+
+
+
 

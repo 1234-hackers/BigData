@@ -1,4 +1,5 @@
 import polars as pl
+import polars.selectors as cs  
 import numpy as np
 import seaborn as sb
 from pymongo import MongoClient
@@ -12,6 +13,8 @@ client = MongoClient(uri)
 database = client['hisani']
 users_collection = database['accounts']
 
+patients = database['patients']
+
 def try_connection():
     if client:
         print("connected")
@@ -21,20 +24,39 @@ def try_connection():
 
 #try_connection()
 
-patients = users_collection.find().limit(5)
+
+
+def get_cusor(collection_name):
+    csr_found = collection_name.find().limit(20)
+    return csr_found
+
+patients = get_cusor(patients)
+
 def get_time():
     now = datetime.now()
-    fmt = now.strftime("%d/%m/%Y %H:%M:%S")
-    return print(fmt)
+    fmt = now.strftime("%d/%m/%Y%H:%M:%S")
+    return (now)
 
 
 def write_json(csr):
     new = list(csr)
     json_data = dumps(new, indent = 2)
-    with open('jsonData/data.json', 'w') as file:
+    de_time = get_time()
+    de_time = str(de_time)
+    de_time = de_time.replace("-" , "")
+    de_time = de_time.replace(":" , "")
+    de_time = de_time.replace("." , "")
+    with open('jsonData/'+ de_time +'.json', 'w') as file:
         file.write(json_data)
 
+#write_json(patients)
 
-write_json(patients)
 
-get_time()
+df = pl.read_json("jsonData/data.json")
+
+#show data_types and head
+
+print(df.head())
+
+
+
