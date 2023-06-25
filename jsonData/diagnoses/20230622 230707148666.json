@@ -1,0 +1,262 @@
+[
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89aca"
+    },
+    "name": "Bad Debt",
+    "type": "Expenses",
+    "description": "Bad Debt",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.217Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89acb"
+    },
+    "name": "Uncategorized",
+    "type": "Expenses",
+    "description": "Uncategorized",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.221Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89acc"
+    },
+    "name": "Other Expenses",
+    "type": "Expenses",
+    "description": "Other Expenses",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.222Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89acd"
+    },
+    "name": "Cost of Goods Sold",
+    "type": "Expenses",
+    "description": "Cost of Goods Sold",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.222Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89ace"
+    },
+    "name": "Exchange Gain or Loss",
+    "type": "Expenses",
+    "description": "Exchange Gain or Loss",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.223Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89acf"
+    },
+    "name": "Other Charges",
+    "type": "Income",
+    "description": "Other Charges",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.224Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89ad0"
+    },
+    "name": "Sales",
+    "type": "Income",
+    "description": "Sales",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.225Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89ad1"
+    },
+    "name": "General Income",
+    "type": "Income",
+    "description": "General Income",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.225Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89ad2"
+    },
+    "name": "Interest Income",
+    "type": "Income",
+    "description": "Interest Income",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.226Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89ad3"
+    },
+    "name": "Late Fee Income",
+    "type": "Income",
+    "description": "Late Fee Income",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.227Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89ad4"
+    },
+    "name": "Purchase Discount",
+    "type": "Income",
+    "description": "Purchase Discount",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.228Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89ad5"
+    },
+    "name": "Advance Tax",
+    "type": "Assets",
+    "description": "Advance Tax",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.231Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89ad6"
+    },
+    "name": "Employee Advance",
+    "type": "Assets",
+    "description": "Employee Advance",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.232Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89ad7"
+    },
+    "name": "Undeposited Funds",
+    "type": "Assets",
+    "description": "Undeposited Funds",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.233Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89ad8"
+    },
+    "name": "Petty Cash",
+    "type": "Assets",
+    "description": "Petty Cash",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.233Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89ad9"
+    },
+    "name": "Accounts Recievable",
+    "type": "Assets",
+    "description": "Accounts Recievable",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.233Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    },
+    "name": "Inventory Asset",
+    "type": "Assets",
+    "description": "Inventory Asset",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.234Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89adb"
+    },
+    "name": "VAT Payable",
+    "type": "Liabilities",
+    "description": "VAT Payable",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.235Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89adc"
+    },
+    "name": "Unearned Revenue",
+    "type": "Liabilities",
+    "description": "Unearned Revenue",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.235Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6411fc16948d5ae9fff89add"
+    },
+    "name": "Opening Balance Adjustments",
+    "type": "Liabilities",
+    "description": "Opening Balance Adjustments",
+    "builtIn": true,
+    "date": {
+      "$date": "2023-03-15T17:10:46.236Z"
+    },
+    "__v": 0
+  }
+]

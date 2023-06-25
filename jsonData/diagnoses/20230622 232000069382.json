@@ -1,0 +1,222 @@
+[
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc11"
+    },
+    "name": "Cholera due to Vibrio cholerae 01, biovar eltor",
+    "code": "A00",
+    "date": {
+      "$date": "2022-02-07T14:26:07.800Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc12"
+    },
+    "name": "Cholera, unspecified",
+    "code": "A00",
+    "date": {
+      "$date": "2022-02-07T14:26:07.803Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc13"
+    },
+    "name": "Typhoid fever, unspecified",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.803Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc14"
+    },
+    "name": "Typhoid meningitis",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.804Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc15"
+    },
+    "name": "Typhoid fever with heart involvement",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.804Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc16"
+    },
+    "name": "Typhoid pneumonia",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.805Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc17"
+    },
+    "name": "Typhoid arthritis",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.805Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc18"
+    },
+    "name": "Typhoid osteomyelitis",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.805Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc19"
+    },
+    "name": "Typhoid fever with other complications",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.806Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc1a"
+    },
+    "name": "Paratyphoid fever A",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.806Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc1b"
+    },
+    "name": "Paratyphoid fever B",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.806Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc1c"
+    },
+    "name": "Paratyphoid fever C",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.806Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc1d"
+    },
+    "name": "Paratyphoid fever, unspecified",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.807Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc1e"
+    },
+    "name": "Salmonella enteritis",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.807Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc1f"
+    },
+    "name": "Salmonella sepsis",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.807Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc20"
+    },
+    "name": "Localized salmonella infection, unspecified",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.807Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc21"
+    },
+    "name": "Salmonella meningitis",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.807Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc22"
+    },
+    "name": "Salmonella pneumonia",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.808Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc23"
+    },
+    "name": "Salmonella arthritis",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.808Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc24"
+    },
+    "name": "Salmonella osteomyelitis",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.808Z"
+    },
+    "__v": 0
+  }
+]

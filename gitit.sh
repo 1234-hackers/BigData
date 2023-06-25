@@ -6,6 +6,16 @@ read commit
 
 git commit -m $commit
 
-git branch -M main
+echo "Enter Branch Namme..Default is main Hit Enter for Default"
 
-git push -u origin main
+read branchz
+
+if [[ $branchz  == "" ]]; then
+        xn = "main"
+else
+
+xn = branchz
+
+git branch -M xn
+
+git push -u origin xn

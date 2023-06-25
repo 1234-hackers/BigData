@@ -33,9 +33,11 @@ sidebar = st.sidebar
 
     
 months = ['Jan' , 'Feb' , 'March' , 'April', 'May','June' ,'July','Aug','Sep','Oct','Nov','Dec']
+
+em_collections = database.list_collection_names()
+
  
 def data_visual(data):
-
     #st.sidebar("Select Graph Type")
     crt = st.sidebar.selectbox("Chart Type",['Pie_Chart', 'Histogram','Bar','Line','Scatter_Chart'])
     x_axis = st.sidebar.selectbox("Select X axis" , data.columns)
@@ -43,7 +45,7 @@ def data_visual(data):
     create_chart(crt,data,x_axis,y_axix)
 
 
-
+import time
 def generate_data(col,folder):
     def try_connection():
         if client:
@@ -69,6 +71,10 @@ def generate_data(col,folder):
             with open(folder + de_time +'.json', 'w') as file:
                 file.write(json_data)
                 file.close()
+            bar = st.progress(0,"COllecting Data..."  )
+            for x in range(100):
+                time.sleep(0.1)
+                bar.progress(x + 1,"COllecting Data...")
             return st.success("New Data Collected. Upload Latest File For Analysis")
 
         if cond == "error":
