@@ -14,10 +14,9 @@ if [[ $branchz  == "" ]]; then
         xn = "main"
 else
 
+	xn = $branchz
+
 fi
-
-xn = $branchz
-
 git branch -M $xn
 
 git push -u origin $xn
