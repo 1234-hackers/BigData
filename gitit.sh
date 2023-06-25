@@ -14,6 +14,8 @@ if [[ $branchz  == "" ]]; then
         xn = "main"
 else
 
+fi
+
 xn = $branchz
 
 git branch -M $xn
