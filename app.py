@@ -56,7 +56,7 @@ def generate_data(col,folder):
         now = datetime.now()
         fmt = now.strftime("%d/%m/%Y%H:%M:%S")
         return (now)
-    csr_found = col.find().limit(20)
+    csr_found = col.find().limit(100)
     
     def write_json(csr_found):
         cond = try_connection()
@@ -118,6 +118,7 @@ def get_time():
 def patients_col():
     col = patients
     folder ='jsonData/patient/' 
+    to_read = None
     
     to_read  = st.sidebar.file_uploader("Upload a Json File")
     options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
@@ -126,7 +127,7 @@ def patients_col():
         to_read = defau
 
     def analyze(data):
-        to_view = st.sidebar.selectbox("Type of Analysis",['Data_Description','Sort_Data'])
+        to_view = st.sidebar.selectbox("Type of Analysis",['Sort_Data'])
         container.write("# Data Analysis")
         if to_view == 'Sort_Data':
             age = data['dob']
@@ -168,7 +169,7 @@ def patients_col():
                 v = int(x)
                 range_age.append(v)
             f_params = st.selectbox("Sort By",data.columns)
-            gen2 = list(data[f_params])
+            gen2 = list(data[f_params].unique())
             g = []
             for x in gen2:
                 if gen2.count(x) > 1:
@@ -182,6 +183,7 @@ def patients_col():
             
 
             container.write(found[['name','dob','gender','age','county','locality','country','phone']])
+            container.success("Number Of Results  " + str(found.shape[0]))
             
         
         if to_view == 'Data_Description':
@@ -192,7 +194,7 @@ def patients_col():
         
         if crt == "Bar":
             st.header("Bar Chart Based on " +str(x_axis )+ ' and ' + str(y_axix))
-            figure = pE.bar(data,x=x_axis,y=y_axix) 
+            figure = pE.bar(data,x=x_axis,y=y_axix,color=x_axis , barmode="group") 
             st.bar_chart(data[['gender','locality']])
             st.plotly_chart(figure)
 
@@ -220,6 +222,36 @@ def patients_col():
             st.plotly_chart(figure)
     def data_visual(data):
         #st.sidebar("Select Graph Type")
+        age = data['dob']
+        xc = []
+        xc2 = []
+        age_now = []
+        for x in age:
+            xc.append(x)
+        for k in xc:
+            birth = str(k['$date'])
+            birthx=birth[0:4]
+            try:
+                de_time = str(get_time())
+                the_year = de_time[0:4]
+                age = int(the_year) - int(birthx)
+            except ValueError:
+                age2 = data['date']
+                for k in age2:
+                    xc2.append(k)
+                for d in xc2:
+                    adm = str(d['$date'])
+                de_time = str(get_time())
+                the_year = de_time[0:4]
+                admited = adm[0:4]
+                age = int(the_year) - int(admited)
+                age_now.append(int(age))
+                        
+            else:
+                age_now.append(int(age))
+    
+
+        data['age']=age_now
         crt = st.sidebar.selectbox("Chart Type",['Bar','Line','Scatter_Chart'])
         x_axis = st.sidebar.selectbox("Select X axis" , data.columns)
         y_axix = st.sidebar.selectbox("Select Y Axis",data.columns)
@@ -245,7 +277,8 @@ def patients_col():
 def transactions_col():
     col = transactions
     folder ='jsonData/transactions/'
-    defau = "jsonData/transactions/20230615 194837504100.json"
+    to_read = None
+    defau = "jsonData/transactions/20230626 131506324764.json"
     
     options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
 
@@ -254,15 +287,35 @@ def transactions_col():
         to_read = defau
     
     def group_by_sum(data_frm):
-        group_c = st.sidebar.selectbox("Select Month" , months)
-        methodz = st.sidebar.selectbox("Payment Method" , ['Cash', 'M-Pesa'])
-        de_data = data_frm.loc[(data_frm['method'] == methodz)]
+        months2 = []
+        for x in range(1,13):
+            str(x)
+            months2.append(x)
+
+        group_c = st.sidebar.selectbox("Select Month" , months2)
+        methodz = st.sidebar.selectbox("Payment Method" , data_frm['method'].unique())
+        month = data_frm['date']
+        xc = []
+        age_now = []
+        for x in month:
+            xc.append(x)
+        for k in xc:
+            birth = str(k['$date'])
+            birthx=birth[5:7]
+            try:
+                birthx = int(birthx)
+            except ValueError:
+                pass    
+            else:
+                age_now.append(int(birthx))
+        data_frm['month'] = age_now
+        de_data = data_frm.loc[(data_frm['method'] == methodz) & (data_frm['month']==group_c )]
         sorted = pd.DataFrame(columns = data_frm.columns)
-        super_data = de_data[['subjectName','amount','method']]
+        super_data = de_data[['subjectName','amount','method','date' , 'month']]
         super_data = super_data.sort_values('subjectName')
         de_sum = de_data['amount'].sum()
         container.write(super_data)
-        st.info("#Total Paid by Cash is Ksh " + str(de_sum))
+        st.info("#Total Paid by " + methodz + " In (nth)  " + str(group_c) + " Month is Ksh " + str(de_sum))
 
     def analyze(data):
         to_view = st.sidebar.selectbox("Type of Analysis",['Data_Description','Sort_Data'])
@@ -270,6 +323,7 @@ def transactions_col():
         if to_view == 'Data_Description':
             container.write("Data Secription")
             container.write(data.describe())
+          
 
             st.info("Minimum Value show the highest discount offered")
         
@@ -281,30 +335,30 @@ def transactions_col():
         
         if crt == "Bar":
             st.header("Bar Chart Based on " +str(x_axis )+ ' and ' + str(y_axix))
-            figure = pE.bar(data,x=x_axis,y=y_axix) 
-            st.bar_chart(data[['amount','method']])
+            figure = pE.bar(data,x=x_axis,y=y_axix , color=x_axis , barmode="group") 
+            #st.bar_chart(data , x_axis ,y_axix)
             st.plotly_chart(figure)
 
         
 
         if crt == "Line":
             st.header("Line Graph Based on " +str(x_axis )+ ' and ' + str(y_axix))
-            figure = pE.line(data,x=x_axis,y=y_axix )
-            st.area_chart(data[['amount','method']])
+            figure = pE.line(data,x=x_axis,y=y_axix,color=x_axis )
+            #st.area_chart(data[['amount','method']])
             st.plotly_chart(figure)
             
         if crt == "Histogram":
             st.header("Histogram Based on " +str(x_axis )+ ' and ' + str(y_axix))
-            figure = pE.histogram(data,x=x_axis,y=y_axix)
+            figure = pE.histogram(data,x=x_axis,y=y_axix , color = x_axis, text_auto = True , histfunc="avg")
             st.plotly_chart(figure)
 
         if crt == "Scatter_Chart":
             st.header("Scatter Based on " +str(x_axis )+ ' and ' + str(y_axix))
-            figure = pE.scatter(data,x=x_axis,y=y_axix)
+            figure = pE.scatter(data,x=x_axis,y=y_axix,color=x_axis,marginal_x='histogram',marginal_y='rug')
             st.plotly_chart(figure)
         
         if crt == "Pie_Chart":
-            st.header("Pie Chart On Amounts Payed On Cash and M-pesa " )
+            st.header("Pie Chart On Payment and Method "  )
             figure = pE.pie(data, values='amount' , names="method" )
             st.plotly_chart(figure)
     def data_visual(data):
@@ -330,6 +384,7 @@ def transactions_col():
 
 def diagnoses_col():
     folder ='jsonData/diagnoses/'
+    to_read = None
     col = diag
     options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
     to_read  = st.sidebar.file_uploader("Upload a Json File")

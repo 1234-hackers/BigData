@@ -11,10 +11,10 @@ echo "Enter Branch Namme..Default is main Hit Enter for Default"
 read branchz
 
 if [[ $branchz  == "" ]]; then
-        xn = "main"
+        xn == "main"
 else
 
-	xn = $branchz
+	xn == $branchz
 
 fi
 git branch -M $xn
