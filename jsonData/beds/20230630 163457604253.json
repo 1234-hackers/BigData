@@ -1,0 +1,2002 @@
+[
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1b98"
+    },
+    "name": "Bed 1",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1b99"
+    },
+    "name": "Bed 2",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1b9a"
+    },
+    "name": "Bed 3",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1b9b"
+    },
+    "name": "Bed 4",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1b9c"
+    },
+    "name": "Bed 5",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1b9d"
+    },
+    "name": "Bed 6",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1b9e"
+    },
+    "name": "Bed 7",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.721Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1b9f"
+    },
+    "name": "Bed 8",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1ba0"
+    },
+    "name": "Bed 9",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1ba1"
+    },
+    "name": "Bed 10",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1ba2"
+    },
+    "name": "Bed 11",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1ba3"
+    },
+    "name": "Bed 12",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1ba4"
+    },
+    "name": "Bed 13",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1ba5"
+    },
+    "name": "Bed 14",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1ba6"
+    },
+    "name": "Bed 15",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1ba7"
+    },
+    "name": "Bed 16",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1ba8"
+    },
+    "name": "Bed 17",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1ba9"
+    },
+    "name": "Bed 18",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1baa"
+    },
+    "name": "Bed 19",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bab"
+    },
+    "name": "Bed 20",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bac"
+    },
+    "name": "Bed 21",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bad"
+    },
+    "name": "Bed 22",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bae"
+    },
+    "name": "Bed 23",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1baf"
+    },
+    "name": "Bed 24",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bb0"
+    },
+    "name": "Bed 25",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bb1"
+    },
+    "name": "Bed 26",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bb2"
+    },
+    "name": "Bed 27",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bb3"
+    },
+    "name": "Bed 28",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bb4"
+    },
+    "name": "Bed 29",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bb5"
+    },
+    "name": "Bed 30",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bb6"
+    },
+    "name": "Bed 31",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bb7"
+    },
+    "name": "Bed 32",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.723Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bb8"
+    },
+    "name": "Bed 33",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.724Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.724Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bb9"
+    },
+    "name": "Bed 34",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.724Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.724Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bba"
+    },
+    "name": "Bed 35",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.724Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.724Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bbb"
+    },
+    "name": "Bed 36",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.724Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.724Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bbc"
+    },
+    "name": "Bed 37",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.725Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.725Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bbd"
+    },
+    "name": "Bed 38",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.725Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.725Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bbe"
+    },
+    "name": "Bed 39",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.725Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.725Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787d54a3424abccff1bbf"
+    },
+    "name": "Bed 40",
+    "active": true,
+    "ward": {
+      "$oid": "62a787d54a3424abccff1b94"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:13.725Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:13.725Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bcc"
+    },
+    "name": "Bed 1",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bcd"
+    },
+    "name": "Bed 2",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bce"
+    },
+    "name": "Bed 3",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bcf"
+    },
+    "name": "Bed 4",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bd0"
+    },
+    "name": "Bed 5",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bd1"
+    },
+    "name": "Bed 6",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bd2"
+    },
+    "name": "Bed 7",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bd3"
+    },
+    "name": "Bed 8",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.111Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bd4"
+    },
+    "name": "Bed 9",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bd5"
+    },
+    "name": "Bed 10",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bd6"
+    },
+    "name": "Bed 11",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bd7"
+    },
+    "name": "Bed 12",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bd8"
+    },
+    "name": "Bed 13",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bd9"
+    },
+    "name": "Bed 14",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bda"
+    },
+    "name": "Bed 15",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bdb"
+    },
+    "name": "Bed 16",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bdc"
+    },
+    "name": "Bed 17",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bdd"
+    },
+    "name": "Bed 18",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bde"
+    },
+    "name": "Bed 19",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.112Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bdf"
+    },
+    "name": "Bed 20",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1be0"
+    },
+    "name": "Bed 21",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1be1"
+    },
+    "name": "Bed 22",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1be2"
+    },
+    "name": "Bed 23",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1be3"
+    },
+    "name": "Bed 24",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1be4"
+    },
+    "name": "Bed 25",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1be5"
+    },
+    "name": "Bed 26",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1be6"
+    },
+    "name": "Bed 27",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1be7"
+    },
+    "name": "Bed 28",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1be8"
+    },
+    "name": "Bed 29",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1be9"
+    },
+    "name": "Bed 30",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bea"
+    },
+    "name": "Bed 31",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.113Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1beb"
+    },
+    "name": "Bed 32",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.114Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.114Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bec"
+    },
+    "name": "Bed 33",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.114Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.114Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bed"
+    },
+    "name": "Bed 34",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.114Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.114Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bee"
+    },
+    "name": "Bed 35",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.114Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.114Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bef"
+    },
+    "name": "Bed 36",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.114Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.114Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bf0"
+    },
+    "name": "Bed 37",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.114Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.114Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bf1"
+    },
+    "name": "Bed 38",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.117Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.117Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bf2"
+    },
+    "name": "Bed 39",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.117Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.117Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787e54a3424abccff1bf3"
+    },
+    "name": "Bed 40",
+    "active": true,
+    "ward": {
+      "$oid": "62a787e54a3424abccff1bc8"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:29.117Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:29.117Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c00"
+    },
+    "name": "Bed 1",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.385Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.385Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c01"
+    },
+    "name": "Bed 2",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.385Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.385Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c02"
+    },
+    "name": "Bed 3",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.385Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.385Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c03"
+    },
+    "name": "Bed 4",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.385Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.385Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c04"
+    },
+    "name": "Bed 5",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c05"
+    },
+    "name": "Bed 6",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c06"
+    },
+    "name": "Bed 7",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c07"
+    },
+    "name": "Bed 8",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c08"
+    },
+    "name": "Bed 9",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c09"
+    },
+    "name": "Bed 10",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c0a"
+    },
+    "name": "Bed 11",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c0b"
+    },
+    "name": "Bed 12",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c0c"
+    },
+    "name": "Bed 13",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c0d"
+    },
+    "name": "Bed 14",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c0e"
+    },
+    "name": "Bed 15",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c0f"
+    },
+    "name": "Bed 16",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c10"
+    },
+    "name": "Bed 17",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c11"
+    },
+    "name": "Bed 18",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.387Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.387Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c12"
+    },
+    "name": "Bed 19",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.387Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.387Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a787f74a3424abccff1c13"
+    },
+    "name": "Bed 20",
+    "active": true,
+    "ward": {
+      "$oid": "62a787f74a3424abccff1bfc"
+    },
+    "createdBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "createdOn": {
+      "$date": "2022-06-13T18:54:47.387Z"
+    },
+    "date": {
+      "$date": "2022-06-13T18:54:47.387Z"
+    },
+    "__v": 0
+  }
+]

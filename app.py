@@ -18,20 +18,42 @@ import re
 from matplotlib import pyplot as plt
 import subprocess
 
+from flask import session
+from passlib.hash import  scram
+from functools import wraps
+
+from streamlit_option_menu import option_menu
 import random
 uri = "mongodb://localhost:27017/"
 client = MongoClient(uri)
 database = client['hisani']
+database2 = client['hisani_accounts']
 users_collection = database['accounts']
 patients = database['patients']
 transactions = database['transactions']
 accounts = database['accounts']
 diag = database['diagnoses']
+beds = database['beds']
 
 container = st.container()
 sidebar = st.sidebar
 
-    
+def register_now():
+    st.container()
+    st.write("Register Now ")
+    de_username = st.text_input("Username" , key="reg")
+    password = st.text_input("password")
+    users_ = database2['accounts']
+    debz = st.button("Register")
+    if debz:
+        existing_user =  users_.find_one({"username":de_username})
+        if existing_user:
+            login()
+        else:
+            passcode = scram.hash(password)
+            users_.insert_one({"username":de_username , "password": passcode})
+
+
 months = ['Jan' , 'Feb' , 'March' , 'April', 'May','June' ,'July','Aug','Sep','Oct','Nov','Dec']
 
 em_collections = database.list_collection_names()
@@ -115,6 +137,7 @@ def get_time():
     return (now)
 
 #defferent pages
+#@login_required
 def patients_col():
     col = patients
     folder ='jsonData/patient/' 
@@ -125,7 +148,17 @@ def patients_col():
     defau = "jsonData/patient/20230621 124514893477.json"
     if to_read is None:
         to_read = defau
-
+    def top_menu():
+        de_menuz = option_menu(
+            menu_title = None,
+            options=['Data Analysis' , 'Data Visualization','Update Data'],
+            icons = ['math','bar_graph','clock'],
+            menu_icon = "cast",
+            orientation = "horizontal"
+            )
+        
+        return de_menuz
+    de_menu = top_menu()
     def analyze(data):
         to_view = st.sidebar.selectbox("Type of Analysis",['Sort_Data'])
         container.write("# Data Analysis")
@@ -260,19 +293,19 @@ def patients_col():
     def create_sideMenu():
         logo = Image.open('src/images/uber.jpg')
         sidebar.image(logo,width = 55)
-        if to_read is not None:
+        
+    create_sideMenu()
+
+    if to_read is not None:
             data = pd.read_json(to_read)
-            if  options == 'Data Analysis':
+            if  de_menu == 'Data Analysis':
                 analyze(data)
-            if options == 'Data Visualization':
+            if de_menu == 'Data Visualization':
                 data_visual(data)
             
-            if options == 'Update Data':
+            if de_menu == 'Update Data':
                 generate_data(col,folder)
-        else:
-            if options == 'Update Data':
-                generate_data(col,folder)
-    create_sideMenu()
+        
 
 def transactions_col():
     col = transactions
@@ -318,8 +351,10 @@ def transactions_col():
         st.info("#Total Paid by " + methodz + " In (nth)  " + str(group_c) + " Month is Ksh " + str(de_sum))
 
     def analyze(data):
+        
+
         to_view = st.sidebar.selectbox("Type of Analysis",['Data_Description','Sort_Data'])
-        container.write("# Data Analysis On File " + to_read)
+        #container.write("# Data Analysis On File " + to_read)
         if to_view == 'Data_Description':
             container.write("Data Secription")
             container.write(data.describe())
@@ -328,7 +363,7 @@ def transactions_col():
             st.info("Minimum Value show the highest discount offered")
         
         if to_view == 'Sort_Data':
-            group_by_sum(data)
+            group_by_sum (data)
 
     def create_chart(crt,data,x_axis,y_axix):
         container.write("Data Visualization")
@@ -381,7 +416,153 @@ def transactions_col():
                 generate_data(col,folder)
     create_sideMenu()
     
+def beds_col():
+    folder = 'jsonData/beds/'
+    to_read = None
+    col = beds
+    options = container.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
+    to_read = st.sidebar.file_uploader("Upload a Json File")
+    defau = "jsonData/beds/20230630 163457604253.json"
+    if to_read is None:
+        to_read = defau
+    def group_by_sum_bed(data):
+        created_by = data['createdBy'].unique
+        status = container.selectbox("Status",['Active', 'Not Active'])
+            #ward = container.selectbox("Ward",['62a787e54a3424abccff1bc8'])
+        if status == "Active":
+            sort_data = data.loc[(data['active'] == True)]
+        if status == "Not Active":
+           sort_data = data.loc[(data['active'] == False)]
+        container.write(sort_data)
+        st.success( "Number Of Beds  " + status +" is " + str(sort_data.shape[0]))
+    def analyze(data):
+        container.write("# Data Analysis On File " + to_read)
+        group_by_sum_bed(data)
+    def create_chart(crt,data,x_axis,y_axix):
+        container.write("Data Visualization")
+        if crt == "Bar":
+            st.header("Bar Chart Based on " +str(x_axis )+ ' and ' + str(y_axix))
+            figure = pE.bar(data,x=x_axis,y=y_axix,color=x_axis , barmode="group") 
+            st.plotly_chart(figure)
+        if crt == "Line":
+            st.header("Line Graph Based on " +str(x_axis )+ ' and ' + str(y_axix))
+            figure = pE.line(data,x=x_axis,y=y_axix )
+            st.plotly_chart(figure)
+            
+        if crt == "Histogram":
+            st.header("Histogram")
+            figure = pE.histogram(data,x=x_axis,y=y_axix)
+            st.plotly_chart(figure)
 
+        if crt == "Scatter_Chart":
+            st.header("Scatter Based on " +str(x_axis )+ ' and ' + str(y_axix))
+            figure = pE.scatter(data,x=x_axis,y=y_axix)
+            st.plotly_chart(figure)
+        if crt == "Pie Chart":
+            de_pie()
+        
+
+    def data_visual(data):
+        #st.sidebar("Select Graph Type")
+        crt = st.sidebar.selectbox("Chart Type",['Scatter_Chart','Histogram','Bar','Line'])
+        x_axis = st.sidebar.selectbox("Select X axis" , data.columns)
+        y_axix = st.sidebar.selectbox("Select Y Axis",data.columns)
+        create_chart(crt,data,x_axis,y_axix)
+
+    def create_sideMenu():
+        logo = Image.open('src/images/uber.jpg')
+        sidebar.image(logo,width = 55)
+        if to_read is not None:
+            data = pd.read_json(to_read)
+            if  options == 'Data Analysis':
+                analyze(data)
+            if options == 'Data Visualization':
+                data_visual(data)
+            if options == 'Update Data':
+                generate_data(col,folder)
+    create_sideMenu()
+
+#@login_required
+def invent_items_col():
+    inv = database['inventoryitems']
+    folder ='jsonData/invent_items/'
+    to_read = None
+    col = inv
+    options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
+    to_read  = st.sidebar.file_uploader("Upload a Json File")
+    defau = "jsonData/diagnoses/20230622 230617793558.json"
+    if to_read is None:
+        to_read = defau
+    def analyze(data):
+        to_view = st.sidebar.selectbox("Type of Analysis",['Data_Description','Sort_Data'])
+        
+        container.write("# Data Analysis For Inventory")
+        
+        if to_view == 'Data_Description':
+            container.write("Data Secription")
+            container.write(data.describe())
+        
+        if to_view == 'Sort_Data':
+            data_new = sort_data(data)
+            container.write("Cleaned Data")
+            container.write(data_new)
+            for x in data_new:
+                container.write(x)
+    def create_sideMenu():
+        logo = Image.open('src/images/uber.jpg')
+        sidebar.image(logo,width = 55)
+        if to_read is not None:
+            data = pd.read_json(to_read)
+            if  options == 'Data Analysis':
+                analyze(data)
+            if options == 'Data Visualization':
+                data_visual(data)
+            if options == 'Update Data':
+                generate_data(col,folder)
+    create_sideMenu()
+
+
+##
+def single_ordersItems():
+    inv = database['singleorderitems']
+    folder ='jsonData/singleorderitems/'
+    to_read = None
+    col = inv
+    options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
+    to_read  = st.sidebar.file_uploader("Upload a Json File")
+    defau = "jsonData/diagnoses/20230630 180431229613.json"
+    if to_read is None:
+        to_read = defau
+    def analyze(data):
+        to_view = st.sidebar.selectbox("Type of Analysis",['Data_Description','Sort_Data'])
+        
+        container.write("# Data Analysis For Inventory")
+        
+        if to_view == 'Data_Description':
+            container.write("Data Secription")
+            container.write(data.describe())
+        
+        if to_view == 'Sort_Data':
+            data_new = sort_data(data)
+            container.write("Cleaned Data")
+            container.write(data_new)
+            for x in data_new:
+                container.write(x)
+    def create_sideMenu():
+        logo = Image.open('src/images/uber.jpg')
+        sidebar.image(logo,width = 55)
+        if to_read is not None:
+            data = pd.read_json(to_read)
+            if  options == 'Data Analysis':
+                analyze(data)
+            if options == 'Data Visualization':
+                data_visual(data)
+            if options == 'Update Data':
+                generate_data(col,folder)
+    create_sideMenu()
+
+
+##
 def diagnoses_col():
     folder ='jsonData/diagnoses/'
     to_read = None
@@ -459,7 +640,7 @@ def accounts_col():
                 generate_data(col,folder)
     create_sideMenu()
     
-    
+    #:bar_chart:,
 
 
 
@@ -467,8 +648,42 @@ def accounts_col():
 def main():
     sidebar = st.sidebar
     logo = Image.open('src/images/uber.jpg')
-    container.image(logo,width=250)
-    dep = sidebar.selectbox("Collection For Analysis" , ['Accounts', 'Patients','Transactions','Diagnoses'])
+    container.image(logo,width=150)
+    # def login():
+    #     container.write("Welcome")
+    #     username = st.text_input("Username")
+    #     password = st.text_input("password", key="log")
+    #     users_ = database2['accounts']
+    #     deb = st.button("Login")
+    #     if deb:
+    #         existing_user =  users_.find_one({"username":username})
+    #         if existing_user:
+    #             passc = existing_user['password']
+    #             if scram.verify(password,passc):
+    #                 dep = st.sidebar.selectbox("Options",options = ['Accounts', 'Patients','Transactions','Diagnoses','Beds','Inventory'])
+                    
+    #                 if dep == 'Patients':
+    #                     patients_col()
+    #                 if dep == 'Accounts':
+    #                     accounts_col()
+    #                 if dep == 'Transactions':
+    #                     transactions_col()
+    #                 if dep =='Diagnoses':
+    #                     diagnoses_col()
+    #                 if dep =='Beds':
+    #                     beds_col()
+    #                 if dep == 'Inventory':
+    #                     invent_items_col()
+    #                 #session['login_user'] = username
+    #             else:
+    #                 st.warning("Wrong Passcode")
+
+                   
+
+    # login()
+
+    dep = st.sidebar.selectbox("Options",options = ['Accounts', 'Patients','Transactions','Diagnoses','Beds','Inventory'])
+                    
     if dep == 'Patients':
         patients_col()
     if dep == 'Accounts':
@@ -477,8 +692,10 @@ def main():
         transactions_col()
     if dep =='Diagnoses':
         diagnoses_col()
-
-    
+    if dep =='Beds':
+        beds_col()
+    if dep == 'Inventory':
+        invent_items_col()
     
 
 
