@@ -58,7 +58,50 @@ months = ['Jan' , 'Feb' , 'March' , 'April', 'May','June' ,'July','Aug','Sep','O
 
 em_collections = database.list_collection_names()
 
- 
+def top_menu():
+        de_menuz = option_menu(
+            menu_title = "Main Menu",
+            options=['Data Analysis' , 'Data Visualization','Update Data'],
+            icons = ['math','chart','clock'],
+            menu_icon = "cast",
+            orientation = "verticle"
+            )
+    
+        return de_menuz
+
+
+
+def create_chart(crt,data,x_axis,y_axix):
+        container.write("Data Visualization")
+        
+        if crt == "Bar":
+            st.header("Bar Chart Based on " +str(x_axis )+ ' and ' + str(y_axix))
+            figure = pE.bar(data,x=x_axis,y=y_axix,color=x_axis , barmode="group") 
+            st.bar_chart(data[['gender','locality']])
+            st.plotly_chart(figure)
+
+        
+
+        if crt == "Line":
+            st.header("Line Graph Based on " +str(x_axis )+ ' and ' + str(y_axix))
+            figure = pE.line(data,x=x_axis,y=y_axix )
+            st.area_chart(data[['locality','gender']])
+            st.plotly_chart(figure)
+            
+        if crt == "Histogram":
+            st.header("Histogram")
+            figure = pE.histogram(data,x=x_axis,y=y_axix)
+            st.plotly_chart(figure)
+
+        if crt == "Scatter_Chart":
+            st.header("Scatter Based on " +str(x_axis )+ ' and ' + str(y_axix))
+            figure = pE.scatter(data,x=x_axis,y=y_axix)
+            st.plotly_chart(figure)
+        
+        if crt == "Pie_Chart":
+            st.header("Pie Chart Based on " +str(x_axis )+ ' and ' + str(y_axix))
+            figure = pE.pie(data,values='locality' , names='gender' )
+            st.plotly_chart(figure)   
 def data_visual(data):
     #st.sidebar("Select Graph Type")
     crt = st.sidebar.selectbox("Chart Type",['Pie_Chart', 'Histogram','Bar','Line','Scatter_Chart'])
@@ -69,6 +112,7 @@ def data_visual(data):
 
 import time
 def generate_data(col,folder):
+    st.write("Fetch latest Data For Analysis For " + str(folder[9:]))
     def try_connection():
         if client:
             return "connected"
@@ -144,7 +188,7 @@ def patients_col():
     to_read = None
     
     to_read  = st.sidebar.file_uploader("Upload a Json File")
-    options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
+    # options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
     defau = "jsonData/patient/20230621 124514893477.json"
     if to_read is None:
         to_read = defau
@@ -152,13 +196,14 @@ def patients_col():
         de_menuz = option_menu(
             menu_title = None,
             options=['Data Analysis' , 'Data Visualization','Update Data'],
-            icons = ['math','bar_graph','clock'],
+            icons = ['math','chart','clock'],
             menu_icon = "cast",
-            orientation = "horizontal"
+            orientation = "verticle"
             )
         
         return de_menuz
-    de_menu = top_menu()
+    with st.sidebar:
+        de_menu = top_menu()
     def analyze(data):
         to_view = st.sidebar.selectbox("Type of Analysis",['Sort_Data'])
         container.write("# Data Analysis")
@@ -201,7 +246,7 @@ def patients_col():
             for x in range_age1:
                 v = int(x)
                 range_age.append(v)
-            f_params = st.selectbox("Sort By",data.columns)
+            f_params = st.selectbox("Sort By",['age','region','gender','county','locality','country'])
             gen2 = list(data[f_params].unique())
             g = []
             for x in gen2:
@@ -286,15 +331,15 @@ def patients_col():
 
         data['age']=age_now
         crt = st.sidebar.selectbox("Chart Type",['Bar','Line','Scatter_Chart'])
-        x_axis = st.sidebar.selectbox("Select X axis" , data.columns)
-        y_axix = st.sidebar.selectbox("Select Y Axis",data.columns)
+        x_axis = st.sidebar.selectbox("Select X axis" , ['age','region','gender','county','locality','country'])
+        y_axix = st.sidebar.selectbox("Select Y Axis",['gender','age','region','county','locality','country'])
         create_chart(crt,data,x_axis,y_axix)
 
     def create_sideMenu():
         logo = Image.open('src/images/uber.jpg')
         sidebar.image(logo,width = 55)
         
-    create_sideMenu()
+
 
     if to_read is not None:
             data = pd.read_json(to_read)
@@ -312,12 +357,14 @@ def transactions_col():
     folder ='jsonData/transactions/'
     to_read = None
     defau = "jsonData/transactions/20230626 131506324764.json"
-    
-    options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
 
+    
+    with st.sidebar:
+        de_menu = top_menu()    
     to_read  = st.sidebar.file_uploader("Upload a Json File")
     if to_read is None:
         to_read = defau
+
     
     def group_by_sum(data_frm):
         months2 = []
@@ -349,10 +396,8 @@ def transactions_col():
         de_sum = de_data['amount'].sum()
         container.write(super_data)
         st.info("#Total Paid by " + methodz + " In (nth)  " + str(group_c) + " Month is Ksh " + str(de_sum))
-
     def analyze(data):
         
-
         to_view = st.sidebar.selectbox("Type of Analysis",['Data_Description','Sort_Data'])
         #container.write("# Data Analysis On File " + to_read)
         if to_view == 'Data_Description':
@@ -399,20 +444,20 @@ def transactions_col():
     def data_visual(data):
         #st.sidebar("Select Graph Type")
         crt = st.sidebar.selectbox("Chart Type",['Pie_Chart', 'Histogram','Bar','Line','Scatter_Chart'])
-        x_axis = st.sidebar.selectbox("Select X axis" , data.columns)
-        y_axix = st.sidebar.selectbox("Select Y Axis",data.columns)
+        x_axis = st.sidebar.selectbox("Select X axis" , ['amount','method','recordedBy','subjecttype'])
+        y_axix = st.sidebar.selectbox("Select Y Axis",['method','amount','recordedBy','subjecttype'])
         create_chart(crt,data,x_axis,y_axix)
-
+   
     def create_sideMenu():
         logo = Image.open('src/images/uber.jpg')
         sidebar.image(logo,width = 55)
         if to_read is not None:
             data = pd.read_json(to_read)
-            if  options == 'Data Analysis':
+            if  de_menu == 'Data Analysis':
                 analyze(data)
-            if options == 'Data Visualization':
+            if de_menu == 'Data Visualization':
                 data_visual(data)
-            if options == 'Update Data':
+            if de_menu == 'Update Data':
                 generate_data(col,folder)
     create_sideMenu()
     
@@ -420,7 +465,8 @@ def beds_col():
     folder = 'jsonData/beds/'
     to_read = None
     col = beds
-    options = container.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
+    with st.sidebar:
+        options = top_menu()
     to_read = st.sidebar.file_uploader("Upload a Json File")
     defau = "jsonData/beds/20230630 163457604253.json"
     if to_read is None:
@@ -490,24 +536,34 @@ def invent_items_col():
     col = inv
     options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
     to_read  = st.sidebar.file_uploader("Upload a Json File")
-    defau = "jsonData/diagnoses/20230622 230617793558.json"
+    defau = "jsonData/invent_items/20230630 180431229613.json"
     if to_read is None:
         to_read = defau
     def analyze(data):
-        to_view = st.sidebar.selectbox("Type of Analysis",['Data_Description','Sort_Data'])
-        
+        to_view = st.sidebar.selectbox("Type of Analysis",['Sort_Data'])
         container.write("# Data Analysis For Inventory")
-        
-        if to_view == 'Data_Description':
-            container.write("Data Secription")
-            container.write(data.describe())
-        
         if to_view == 'Sort_Data':
-            data_new = sort_data(data)
+            sec = ['date','description','name','type']
+            p = ['description','name','type','date']
+            sort_param1 = st.sidebar.selectbox("Sort By", sec)
+            sort_param2 = st.sidebar.selectbox("Second Key", sec , key="ghfgh")
+            sort_param3 = st.sidebar.selectbox("Aditional Key", p , key="ghfgfgh")
+            if not sort_param1 == sort_param2:
+                if not sort_param2 == sort_param3:
+                    data_new = data[[sort_param1 , sort_param2 , sort_param3]]
+                    container.write("Cleaned Data")
+                    container.write(data_new)
+                    for x in data_new:
+                        container.write(x)
+            sort_param2 = sec[2]
+            sort_param1 = sec[1]
+            sort_param3 = sec[0]
+            data_new = data[[sort_param1 , sort_param2 , sort_param3]]
             container.write("Cleaned Data")
             container.write(data_new)
             for x in data_new:
                 container.write(x)
+
     def create_sideMenu():
         logo = Image.open('src/images/uber.jpg')
         sidebar.image(logo,width = 55)
@@ -567,27 +623,35 @@ def diagnoses_col():
     folder ='jsonData/diagnoses/'
     to_read = None
     col = diag
-    options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
+    with st.sidebar:
+        options = top_menu() 
     to_read  = st.sidebar.file_uploader("Upload a Json File")
-    defau = "jsonData/diagnoses/20230615 194837504100.json"
+    defau = "jsonData/diagnoses/20230724 132130022123.json"
     if to_read is None:
         to_read = defau
     def analyze(data):
-        to_view = st.sidebar.selectbox("Type of Analysis",['Data_Description','Sort_Data'])
+        to_view = st.sidebar.selectbox("Type of Analysis",['Sort_Data' , 'Data_Description'])
         container.write("# Data Analysis")
         if to_view == 'Data_Description':
             container.write("Data Secription")
             container.write(data.describe())
         
         if to_view == 'Sort_Data':
-            data_new = sort_data(data)
+            gen2 = st.sidebar.selectbox("Sort By", ['code' , 'name'])
+            keyz = list(data[gen2].unique())
+            g = []
+            for x in keyz:
+                if keyz.count(x) > 1:
+                    if not x in g:
+                        g.append(x)
+                else:
+                    if not x in g:
+                        g.append(x)
+            second_pm = st.selectbox("parameter" ,g)
+            data_new  = data.loc[(data[gen2] ==second_pm)]
             container.write("Cleaned Data")
             container.write(data_new)
-            for x in data_new:
-                container.write(x)
-
-
-    
+            container.success("Number Of Results  " + str(data_new.shape[0]))
     def create_sideMenu():
         logo = Image.open('src/images/uber.jpg')
         sidebar.image(logo,width = 55)
@@ -596,7 +660,9 @@ def diagnoses_col():
             if  options == 'Data Analysis':
                 analyze(data)
             if options == 'Data Visualization':
-                data_visual(data)
+                st.header("Pie Chart")
+                figure = pE.pie(data , names='code' )
+                st.plotly_chart(figure) 
             if options == 'Update Data':
                 generate_data(col,folder)
     create_sideMenu()
@@ -647,8 +713,7 @@ def accounts_col():
 #@st.cache
 def main():
     sidebar = st.sidebar
-    logo = Image.open('src/images/uber.jpg')
-    container.image(logo,width=150)
+  
     # def login():
     #     container.write("Welcome")
     #     username = st.text_input("Username")
@@ -682,7 +747,7 @@ def main():
 
     # login()
 
-    dep = st.sidebar.selectbox("Options",options = ['Accounts', 'Patients','Transactions','Diagnoses','Beds','Inventory'])
+    dep = st.sidebar.selectbox("Options",options = ['Patients','Accounts','Transactions','Diagnoses','Beds','Inventory'])
                     
     if dep == 'Patients':
         patients_col()

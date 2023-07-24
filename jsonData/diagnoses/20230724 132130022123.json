@@ -1,0 +1,1102 @@
+[
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc11"
+    },
+    "name": "Cholera due to Vibrio cholerae 01, biovar eltor",
+    "code": "A00",
+    "date": {
+      "$date": "2022-02-07T14:26:07.800Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc12"
+    },
+    "name": "Cholera, unspecified",
+    "code": "A00",
+    "date": {
+      "$date": "2022-02-07T14:26:07.803Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc13"
+    },
+    "name": "Typhoid fever, unspecified",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.803Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc14"
+    },
+    "name": "Typhoid meningitis",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.804Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc15"
+    },
+    "name": "Typhoid fever with heart involvement",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.804Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc16"
+    },
+    "name": "Typhoid pneumonia",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.805Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc17"
+    },
+    "name": "Typhoid arthritis",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.805Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc18"
+    },
+    "name": "Typhoid osteomyelitis",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.805Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc19"
+    },
+    "name": "Typhoid fever with other complications",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.806Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc1a"
+    },
+    "name": "Paratyphoid fever A",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.806Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc1b"
+    },
+    "name": "Paratyphoid fever B",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.806Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc1c"
+    },
+    "name": "Paratyphoid fever C",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.806Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc1d"
+    },
+    "name": "Paratyphoid fever, unspecified",
+    "code": "A01",
+    "date": {
+      "$date": "2022-02-07T14:26:07.807Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc1e"
+    },
+    "name": "Salmonella enteritis",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.807Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc1f"
+    },
+    "name": "Salmonella sepsis",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.807Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc20"
+    },
+    "name": "Localized salmonella infection, unspecified",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.807Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc21"
+    },
+    "name": "Salmonella meningitis",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.807Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc22"
+    },
+    "name": "Salmonella pneumonia",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.808Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc23"
+    },
+    "name": "Salmonella arthritis",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.808Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc24"
+    },
+    "name": "Salmonella osteomyelitis",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.808Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc25"
+    },
+    "name": "Salmonella pyelonephritis",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.808Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc26"
+    },
+    "name": "Salmonella with other localized infection",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.808Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc27"
+    },
+    "name": "Other specified salmonella infections",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.809Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc28"
+    },
+    "name": "Salmonella infection, unspecified",
+    "code": "A02",
+    "date": {
+      "$date": "2022-02-07T14:26:07.809Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc29"
+    },
+    "name": "Shigellosis due to Shigella dysenteriae",
+    "code": "A03",
+    "date": {
+      "$date": "2022-02-07T14:26:07.809Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc2a"
+    },
+    "name": "Shigellosis due to Shigella flexneri",
+    "code": "A03",
+    "date": {
+      "$date": "2022-02-07T14:26:07.810Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc2b"
+    },
+    "name": "Shigellosis due to Shigella boydii",
+    "code": "A03",
+    "date": {
+      "$date": "2022-02-07T14:26:07.810Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc2c"
+    },
+    "name": "Shigellosis due to Shigella sonnei",
+    "code": "A03",
+    "date": {
+      "$date": "2022-02-07T14:26:07.810Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc2d"
+    },
+    "name": "Other shigellosis",
+    "code": "A03",
+    "date": {
+      "$date": "2022-02-07T14:26:07.810Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc2e"
+    },
+    "name": "Shigellosis, unspecified",
+    "code": "A03",
+    "date": {
+      "$date": "2022-02-07T14:26:07.811Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc2f"
+    },
+    "name": "Enteropathogenic Escherichia coli infection",
+    "code": "A04",
+    "date": {
+      "$date": "2022-02-07T14:26:07.811Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc30"
+    },
+    "name": "Enterotoxigenic Escherichia coli infection",
+    "code": "A04",
+    "date": {
+      "$date": "2022-02-07T14:26:07.811Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc31"
+    },
+    "name": "Enteroinvasive Escherichia coli infection",
+    "code": "A04",
+    "date": {
+      "$date": "2022-02-07T14:26:07.811Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc32"
+    },
+    "name": "Enterohemorrhagic Escherichia coli infection",
+    "code": "A04",
+    "date": {
+      "$date": "2022-02-07T14:26:07.811Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc33"
+    },
+    "name": "Other intestinal Escherichia coli infections",
+    "code": "A04",
+    "date": {
+      "$date": "2022-02-07T14:26:07.812Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc34"
+    },
+    "name": "Campylobacter enteritis",
+    "code": "A04",
+    "date": {
+      "$date": "2022-02-07T14:26:07.812Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc35"
+    },
+    "name": "Enteritis due to Yersinia enterocolitica",
+    "code": "A04",
+    "date": {
+      "$date": "2022-02-07T14:26:07.812Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc36"
+    },
+    "name": "Enterocolitis due to Clostridium difficile",
+    "code": "A04",
+    "date": {
+      "$date": "2022-02-07T14:26:07.818Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc37"
+    },
+    "name": "Other specified bacterial intestinal infections",
+    "code": "A04",
+    "date": {
+      "$date": "2022-02-07T14:26:07.818Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc38"
+    },
+    "name": "Bacterial intestinal infection, unspecified",
+    "code": "A04",
+    "date": {
+      "$date": "2022-02-07T14:26:07.819Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc39"
+    },
+    "name": "Foodborne staphylococcal intoxication",
+    "code": "A05",
+    "date": {
+      "$date": "2022-02-07T14:26:07.819Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc3a"
+    },
+    "name": "Botulism food poisoning",
+    "code": "A05",
+    "date": {
+      "$date": "2022-02-07T14:26:07.819Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc3b"
+    },
+    "name": "Foodborne Clostridium perfringens [Clostridium welchii] intoxication",
+    "code": "A05",
+    "date": {
+      "$date": "2022-02-07T14:26:07.819Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc3c"
+    },
+    "name": "Foodborne Vibrio parahaemolyticus intoxication",
+    "code": "A05",
+    "date": {
+      "$date": "2022-02-07T14:26:07.820Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc3d"
+    },
+    "name": "Foodborne Bacillus cereus intoxication",
+    "code": "A05",
+    "date": {
+      "$date": "2022-02-07T14:26:07.820Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc3e"
+    },
+    "name": "Foodborne Vibrio vulnificus intoxication",
+    "code": "A05",
+    "date": {
+      "$date": "2022-02-07T14:26:07.820Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc3f"
+    },
+    "name": "Other specified bacterial foodborne intoxications",
+    "code": "A05",
+    "date": {
+      "$date": "2022-02-07T14:26:07.820Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc40"
+    },
+    "name": "Bacterial foodborne intoxication, unspecified",
+    "code": "A05",
+    "date": {
+      "$date": "2022-02-07T14:26:07.820Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc41"
+    },
+    "name": "Acute amebic dysentery",
+    "code": "A06",
+    "date": {
+      "$date": "2022-02-07T14:26:07.820Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc42"
+    },
+    "name": "Chronic intestinal amebiasis",
+    "code": "A06",
+    "date": {
+      "$date": "2022-02-07T14:26:07.821Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc43"
+    },
+    "name": "Amebic nondysenteric colitis",
+    "code": "A06",
+    "date": {
+      "$date": "2022-02-07T14:26:07.821Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc44"
+    },
+    "name": "Ameboma of intestine",
+    "code": "A06",
+    "date": {
+      "$date": "2022-02-07T14:26:07.821Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc45"
+    },
+    "name": "Amebic liver abscess",
+    "code": "A06",
+    "date": {
+      "$date": "2022-02-07T14:26:07.821Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc46"
+    },
+    "name": "Amebic lung abscess",
+    "code": "A06",
+    "date": {
+      "$date": "2022-02-07T14:26:07.821Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc47"
+    },
+    "name": "Amebic brain abscess",
+    "code": "A06",
+    "date": {
+      "$date": "2022-02-07T14:26:07.821Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc48"
+    },
+    "name": "Cutaneous amebiasis",
+    "code": "A06",
+    "date": {
+      "$date": "2022-02-07T14:26:07.822Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc49"
+    },
+    "name": "Amebic cystitis",
+    "code": "A06",
+    "date": {
+      "$date": "2022-02-07T14:26:07.822Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc4a"
+    },
+    "name": "Other amebic genitourinary infections",
+    "code": "A06",
+    "date": {
+      "$date": "2022-02-07T14:26:07.822Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc4b"
+    },
+    "name": "Other amebic infections",
+    "code": "A06",
+    "date": {
+      "$date": "2022-02-07T14:26:07.822Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc4c"
+    },
+    "name": "Amebiasis, unspecified",
+    "code": "A06",
+    "date": {
+      "$date": "2022-02-07T14:26:07.822Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc4d"
+    },
+    "name": "Balantidiasis",
+    "code": "A07",
+    "date": {
+      "$date": "2022-02-07T14:26:07.822Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc4e"
+    },
+    "name": "Giardiasis [lambliasis]",
+    "code": "A07",
+    "date": {
+      "$date": "2022-02-07T14:26:07.823Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc4f"
+    },
+    "name": "Cryptosporidiosis",
+    "code": "A07",
+    "date": {
+      "$date": "2022-02-07T14:26:07.823Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc50"
+    },
+    "name": "Isosporiasis",
+    "code": "A07",
+    "date": {
+      "$date": "2022-02-07T14:26:07.823Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc51"
+    },
+    "name": "Cyclosporiasis",
+    "code": "A07",
+    "date": {
+      "$date": "2022-02-07T14:26:07.823Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc52"
+    },
+    "name": "Other specified protozoal intestinal diseases",
+    "code": "A07",
+    "date": {
+      "$date": "2022-02-07T14:26:07.823Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc53"
+    },
+    "name": "Protozoal intestinal disease, unspecified",
+    "code": "A07",
+    "date": {
+      "$date": "2022-02-07T14:26:07.823Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc54"
+    },
+    "name": "Rotaviral enteritis",
+    "code": "A08",
+    "date": {
+      "$date": "2022-02-07T14:26:07.824Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc55"
+    },
+    "name": "Acute gastroenteropathy due to Norwalk agent",
+    "code": "A08",
+    "date": {
+      "$date": "2022-02-07T14:26:07.824Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc56"
+    },
+    "name": "Acute gastroenteropathy due to other small round viruses",
+    "code": "A08",
+    "date": {
+      "$date": "2022-02-07T14:26:07.824Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc57"
+    },
+    "name": "Adenoviral enteritis",
+    "code": "A08",
+    "date": {
+      "$date": "2022-02-07T14:26:07.824Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc58"
+    },
+    "name": "Calicivirus enteritis",
+    "code": "A08",
+    "date": {
+      "$date": "2022-02-07T14:26:07.824Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc59"
+    },
+    "name": "Astrovirus enteritis",
+    "code": "A08",
+    "date": {
+      "$date": "2022-02-07T14:26:07.824Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc5a"
+    },
+    "name": "Other viral enteritis",
+    "code": "A08",
+    "date": {
+      "$date": "2022-02-07T14:26:07.825Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc5b"
+    },
+    "name": "Viral intestinal infection, unspecified",
+    "code": "A08",
+    "date": {
+      "$date": "2022-02-07T14:26:07.825Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc5c"
+    },
+    "name": "Other specified intestinal infections",
+    "code": "A08",
+    "date": {
+      "$date": "2022-02-07T14:26:07.825Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc5d"
+    },
+    "name": "Infectious gastroenteritis and colitis, unspecified",
+    "code": "A09",
+    "date": {
+      "$date": "2022-02-07T14:26:07.826Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc5e"
+    },
+    "name": "Tuberculosis of lung",
+    "code": "A15",
+    "date": {
+      "$date": "2022-02-07T14:26:07.826Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc5f"
+    },
+    "name": "Tuberculosis of intrathoracic lymph nodes",
+    "code": "A15",
+    "date": {
+      "$date": "2022-02-07T14:26:07.826Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc60"
+    },
+    "name": "Tuberculosis of larynx, trachea and bronchus",
+    "code": "A15",
+    "date": {
+      "$date": "2022-02-07T14:26:07.826Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc61"
+    },
+    "name": "Tuberculous pleurisy",
+    "code": "A15",
+    "date": {
+      "$date": "2022-02-07T14:26:07.826Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc62"
+    },
+    "name": "Primary respiratory tuberculosis",
+    "code": "A15",
+    "date": {
+      "$date": "2022-02-07T14:26:07.827Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc63"
+    },
+    "name": "Other respiratory tuberculosis",
+    "code": "A15",
+    "date": {
+      "$date": "2022-02-07T14:26:07.827Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc64"
+    },
+    "name": "Respiratory tuberculosis unspecified",
+    "code": "A15",
+    "date": {
+      "$date": "2022-02-07T14:26:07.827Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc65"
+    },
+    "name": "Tuberculous meningitis",
+    "code": "A17",
+    "date": {
+      "$date": "2022-02-07T14:26:07.827Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc66"
+    },
+    "name": "Meningeal tuberculoma",
+    "code": "A17",
+    "date": {
+      "$date": "2022-02-07T14:26:07.827Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc67"
+    },
+    "name": "Tuberculoma of brain and spinal cord",
+    "code": "A17",
+    "date": {
+      "$date": "2022-02-07T14:26:07.828Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc68"
+    },
+    "name": "Tuberculous meningoencephalitis",
+    "code": "A17",
+    "date": {
+      "$date": "2022-02-07T14:26:07.828Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc69"
+    },
+    "name": "Tuberculous neuritis",
+    "code": "A17",
+    "date": {
+      "$date": "2022-02-07T14:26:07.828Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc6a"
+    },
+    "name": "Other tuberculosis of nervous system",
+    "code": "A17",
+    "date": {
+      "$date": "2022-02-07T14:26:07.828Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc6b"
+    },
+    "name": "Tuberculosis of nervous system, unspecified",
+    "code": "A17",
+    "date": {
+      "$date": "2022-02-07T14:26:07.828Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc6c"
+    },
+    "name": "Tuberculosis of spine",
+    "code": "A18",
+    "date": {
+      "$date": "2022-02-07T14:26:07.831Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc6d"
+    },
+    "name": "Tuberculous arthritis of other joints",
+    "code": "A18",
+    "date": {
+      "$date": "2022-02-07T14:26:07.832Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc6e"
+    },
+    "name": "Tuberculosis of other bones",
+    "code": "A18",
+    "date": {
+      "$date": "2022-02-07T14:26:07.832Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc6f"
+    },
+    "name": "Other musculoskeletal tuberculosis",
+    "code": "A18",
+    "date": {
+      "$date": "2022-02-07T14:26:07.835Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc70"
+    },
+    "name": "Tuberculosis of genitourinary system, unspecified",
+    "code": "A18",
+    "date": {
+      "$date": "2022-02-07T14:26:07.835Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc71"
+    },
+    "name": "Tuberculosis of kidney and ureter",
+    "code": "A18",
+    "date": {
+      "$date": "2022-02-07T14:26:07.835Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc72"
+    },
+    "name": "Tuberculosis of bladder",
+    "code": "A18",
+    "date": {
+      "$date": "2022-02-07T14:26:07.836Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc73"
+    },
+    "name": "Tuberculosis of other urinary organs",
+    "code": "A18",
+    "date": {
+      "$date": "2022-02-07T14:26:07.836Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62012bff93a5f17021abdc74"
+    },
+    "name": "Tuberculosis of prostate",
+    "code": "A18",
+    "date": {
+      "$date": "2022-02-07T14:26:07.836Z"
+    },
+    "__v": 0
+  }
+]
