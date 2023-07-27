@@ -534,7 +534,6 @@ def invent_items_col():
     folder ='jsonData/invent_items/'
     to_read = None
     col = inv
-    options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
     to_read  = st.sidebar.file_uploader("Upload a Json File")
     defau = "jsonData/invent_items/20230630 180431229613.json"
     if to_read is None:
@@ -543,27 +542,39 @@ def invent_items_col():
         to_view = st.sidebar.selectbox("Type of Analysis",['Sort_Data'])
         container.write("# Data Analysis For Inventory")
         if to_view == 'Sort_Data':
-            sec = ['date','description','name','type']
-            p = ['description','name','type','date']
+            sec = ['category','name','account' ,'issuedIn' , 'receivedIn']
+            p = ['name','account' ,'issuedIn' , 'receivedIn']
             sort_param1 = st.sidebar.selectbox("Sort By", sec)
-            sort_param2 = st.sidebar.selectbox("Second Key", sec , key="ghfgh")
-            sort_param3 = st.sidebar.selectbox("Aditional Key", p , key="ghfgfgh")
+            sort_param2 = st.sidebar.selectbox("Second Key", p, key="ghfgh")
             if not sort_param1 == sort_param2:
-                if not sort_param2 == sort_param3:
-                    data_new = data[[sort_param1 , sort_param2 , sort_param3]]
+                    data_new = data[[sort_param1 , sort_param2 , 'date' ]]
                     container.write("Cleaned Data")
                     container.write(data_new)
-                    for x in data_new:
-                        container.write(x)
-            sort_param2 = sec[2]
-            sort_param1 = sec[1]
-            sort_param3 = sec[0]
-            data_new = data[[sort_param1 , sort_param2 , sort_param3]]
-            container.write("Cleaned Data")
-            container.write(data_new)
-            for x in data_new:
-                container.write(x)
+            keyz = list(data['category'].unique())
+            container.success("Category  Classes")
+            em =[]
+            for x in keyz:
+                dx  = data.loc[(data['category'] ==x  )]
+                container.write("*  " + x)
+                container.write("Number Of Items " + str( dx.shape[0]))
+                em.append(dx.shape[0])
+                
+                container.write(dx)
+            container.write(em)
+            for_g = {
+            'names' : keyz,
+            'vl' : em
+                    }
+            df_g = pd.DataFrame(for_g)
+    container.write(df_g)
 
+                
+                
+
+
+                
+    with st.sidebar:
+        options = top_menu()
     def create_sideMenu():
         logo = Image.open('src/images/uber.jpg')
         sidebar.image(logo,width = 55)
