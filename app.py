@@ -34,6 +34,10 @@ transactions = database['transactions']
 accounts = database['accounts']
 diag = database['diagnoses']
 beds = database['beds']
+ilt = database['inventoryledgerentries']
+pP = database['patientplans']
+QueEnt = database['queueentries']
+
 
 container = st.container()
 sidebar = st.sidebar
@@ -560,13 +564,18 @@ def invent_items_col():
                 em.append(dx.shape[0])
                 
                 container.write(dx)
-            container.write(em)
             for_g = {
             'names' : keyz,
             'vl' : em
                     }
             df_g = pd.DataFrame(for_g)
-    container.write(df_g)
+
+        figure = pE.histogram(df_g,x=em,y=keyz , color = em, text_auto = True)
+        st.plotly_chart(figure)
+
+        figure = pE.pie(df_g, values= em, names=keyz )
+        st.plotly_chart(figure)
+        
 
                 
                 
@@ -719,6 +728,150 @@ def accounts_col():
     
     #:bar_chart:,
 
+def invent_ledger_items():
+    col = ilt
+    folder ='jsonData/invent_ledger_items/'
+    to_read = None
+    defau = "jsonData/invent_ledger_items/20230729 225406968772.json"
+    
+    to_read  = st.sidebar.file_uploader("Upload a Json File")
+    if to_read is None:
+        to_read = defau
+    
+
+    def analyze(data):
+        to_view = st.sidebar.selectbox("Type of Analysis",['Data_Description','Sort_Data'])
+        container.write("# Data Analysis")
+        if to_view == 'Data_Description':
+            container.write("Data Secription")
+            container.write(data.describe())
+        
+        if to_view == 'Sort_Data':
+            data2 = data[['committedOn'][3:10]]
+            
+            container.write(data2)
+     
+
+
+
+    with st.sidebar:
+        options = top_menu()
+    def create_sideMenu():
+        logo = Image.open('src/images/uber.jpg')
+        sidebar.image(logo,width = 55)
+        if to_read is not None:
+            data = pd.read_json(to_read)
+            if  options == 'Data Analysis':
+                analyze(data)
+            if options == 'Data Visualization':
+                data_visual(data)
+            if options == 'Update Data':
+                generate_data(col,folder)
+    create_sideMenu()
+
+
+
+
+def patients_plans():
+    col = pP
+    folder ='jsonData/patientPlans/'
+    to_read = None
+    defau = "jsonData/patientPlans/20230729 231141181965.json"
+    
+    to_read  = st.sidebar.file_uploader("Upload a Json File")
+    if to_read is None:
+        to_read = defau
+
+    def analyze(data):
+        to_view = st.sidebar.selectbox("Type of Analysis",['Data_Description','Sort_Data'])
+        container.write("# Data Analysis")
+        if to_view == 'Data_Description':
+            container.write("Data Secription")
+            container.write(data.describe())
+        
+        if to_view == 'Sort_Data':
+            data_new = sort_data(data)
+            container.write("Cleaned Data")
+            container.write(data)
+    
+    with st.sidebar:
+        options = top_menu()
+    def create_sideMenu():
+        logo = Image.open('src/images/uber.jpg')
+        sidebar.image(logo,width = 55)
+        if to_read is not None:
+            data = pd.read_json(to_read)
+            if  options == 'Data Analysis':
+                analyze(data)
+            if options == 'Data Visualization':
+                data_visual(data)
+            if options == 'Update Data':
+                generate_data(col,folder)
+    create_sideMenu()
+
+
+def queueentries():
+    col = QueEnt
+    folder ='jsonData/queueentries/'
+    to_read = None
+    defau = "jsonData/queueentries/20230802 130133492888.json"
+    
+    to_read  = st.sidebar.file_uploader("Upload a Json File")
+    if to_read is None:
+        to_read = defau
+
+    def analyze(data):
+        to_view = st.sidebar.selectbox("Type of Analysis",[ 'Sort_Data'])
+        container.write("# Queue Entries ")
+       
+        if to_view == 'Sort_Data':
+            data_new = sort_data(data)
+            container.write("Cleaned Data")
+            the_date = data['date']
+            the_time = data['playedOn']
+            xc = []
+            xc2 = []
+            age_now = []
+            de_time = []
+            play_t = []
+            for x in the_date:
+                xc.append(x)
+            for k in xc:
+                day = str(k['$date'])
+                birthx = day[0:10]
+                entered = day[11:16]
+                age_now.append(birthx)
+                de_time.append(entered)
+           
+            for x in the_time:
+                xc2.append(x)
+            for v in xc:
+                day = str(v['$date'])
+                playt = day[11:16]  
+                play_t.append(playt)
+            data['day']=age_now
+            data['Time In'] = de_time
+            data['Play Time'] = play_t
+            container.write(data[['_id','station','file','errored','day','Time In','played','Play Time']])
+    
+    with st.sidebar:
+        options = top_menu()
+    def create_sideMenu():
+        logo = Image.open('src/images/uber.jpg')
+        sidebar.image(logo,width = 55)
+        if to_read is not None:
+            data = pd.read_json(to_read)
+            if  options == 'Data Analysis':
+                analyze(data)
+            if options == 'Data Visualization':
+                data_visual(data)
+            if options == 'Update Data':
+                generate_data(col,folder)
+    create_sideMenu()
+
+
+
+
 
 
 #@st.cache
@@ -758,7 +911,8 @@ def main():
 
     # login()
 
-    dep = st.sidebar.selectbox("Options",options = ['Patients','Accounts','Transactions','Diagnoses','Beds','Inventory'])
+    dep = st.sidebar.selectbox("Options",options = ['Patients','Accounts','Transactions','Diagnoses','Beds','Inventory', 'LedgerItems',
+    'QueEntries','PatientsPlans'])
                     
     if dep == 'Patients':
         patients_col()
@@ -772,6 +926,14 @@ def main():
         beds_col()
     if dep == 'Inventory':
         invent_items_col()
+    if dep  == 'LedgerItems':
+        invent_ledger_items()
+    if dep == 'PatientsPlans':
+        patients_plans()
+    if dep == 'QueEntries':
+        queueentries()
+
+
     
 
 
