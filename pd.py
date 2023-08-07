@@ -14,6 +14,11 @@ client = MongoClient(uri)
 
 database = client['hisani']
 
+database2 = client['hisani_accounts']
+
+
+f = database2['latest']
+
 
 
 users_collection = database['accounts']
@@ -208,4 +213,16 @@ def generate_data(col):
                 return print("Could Not Connect To Database")
     write_json(csr_found)
 
-generate_data(col)
+#generate_data(col)
+
+
+
+def find_docs():
+    patient = "patients"
+    docs = f.find({"coll" : patient})
+    if docs:
+        for x in docs:
+            print(x)
+    else:
+        print("Noin")
+find_docs()

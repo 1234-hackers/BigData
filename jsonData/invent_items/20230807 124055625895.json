@@ -1,0 +1,1626 @@
+[
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78c9"
+    },
+    "name": "AC forte tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78ca"
+    },
+    "name": "Aceclofenac SR 200mg Caps",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Capsules",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78cb"
+    },
+    "name": "Aceclofenac Gel",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tubes",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78cc"
+    },
+    "name": "ACP (Aceclofenac + Paracetamol)",
+    "category": "Drugs",
+    "receivedIn": "Packets",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78cd"
+    },
+    "name": "Levofloxacin 750mg Tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78ce"
+    },
+    "name": "Adol suppositories 125 mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78cf"
+    },
+    "name": "Adol suppositories 250mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78d0"
+    },
+    "name": "AL syrup 60ml (Artemether Lumefentrine)",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78d1"
+    },
+    "name": "AL (Artefan) Tablets 24's",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78d2"
+    },
+    "name": "ABZ Tabs (Albendazole)",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78d3"
+    },
+    "name": "ABZ Suspension (Albendazole)",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78d4"
+    },
+    "name": "Allopurinol 300mg Tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78d6"
+    },
+    "name": "Amitriptyline 25mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78d7"
+    },
+    "name": "Amlodipine 10mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78d8"
+    },
+    "name": "Amlodipine 5mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78d9"
+    },
+    "name": "Amoxicillin 250mg",
+    "category": "Drugs",
+    "receivedIn": "Packets",
+    "issuedIn": "Capsules",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78da"
+    },
+    "name": "Amoxicillin 500mg Caps",
+    "category": "Drugs",
+    "receivedIn": "Packets",
+    "issuedIn": "Capsules",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78db"
+    },
+    "name": "Amoxiclav 228mg/5ml suspension",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78dc"
+    },
+    "name": "Amoxiclav 375mg Tabs (Bactoclav)",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Capsules",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78dd"
+    },
+    "name": "Amoxiclav 457mg/5ml suspension",
+    "category": "Drugs",
+    "receivedIn": "Units",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "__v": 1,
+    "log": [],
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78de"
+    },
+    "name": "Amoxiclav 625mg Tabs (BACTOCLAV)",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "__v": 1,
+    "log": [],
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78e0"
+    },
+    "name": "Ampiclox Neonatol Drops",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78e2"
+    },
+    "name": "Apha plus",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78e3"
+    },
+    "name": "Apha sp",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78e4"
+    },
+    "name": "Ascard 75mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78e6"
+    },
+    "name": "Asprin 300mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78e7"
+    },
+    "name": "Atenolol 25mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78e8"
+    },
+    "name": "Atenolol 50mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78ea"
+    },
+    "name": "Autoclave tape",
+    "category": "Facility Inventory",
+    "receivedIn": "Units",
+    "issuedIn": "Units",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78eb"
+    },
+    "name": "Azithromycin Suspension 15ml",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78ec"
+    },
+    "name": "Azithromycin Tabs 500mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78ed"
+    },
+    "name": "Beazyl Beazocate 25%",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Units",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78ee"
+    },
+    "name": "Benaflu Caps",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78ef"
+    },
+    "name": "Benagas 100ml(Antacid)",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "__v": 1,
+    "log": [],
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78f0"
+    },
+    "name": "benahist cough syrup 100ml",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78f1"
+    },
+    "name": "benasten V3 pessaris",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78f2"
+    },
+    "name": "Benasten B Cream",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78f3"
+    },
+    "name": "Benzylpenicilin Inj",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Vials",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78f4"
+    },
+    "name": "Benzhexol 5mg Tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78f5"
+    },
+    "name": "Betapyn",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "__v": 1,
+    "log": [],
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78f6"
+    },
+    "name": "Betason Cream",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tubes",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "__v": 1,
+    "log": [],
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78f7"
+    },
+    "name": "BG Glutamin 100mls",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Units",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78f8"
+    },
+    "name": "BG Glutamin plus tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78f9"
+    },
+    "name": "Bactigrass 10cm x 40cm (Chlorohexidine gauze)",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Units",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78fa"
+    },
+    "name": "Bisacodyl 5mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78fb"
+    },
+    "name": "Branula G18(Green)",
+    "category": "Nursing",
+    "receivedIn": "Boxes",
+    "issuedIn": "Units",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78fc"
+    },
+    "name": "Branula G20 (Pink)",
+    "category": "Nursing",
+    "receivedIn": "Boxes",
+    "issuedIn": "Units",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78fd"
+    },
+    "name": "Branula G22(Blue)",
+    "category": "Nursing",
+    "receivedIn": "Boxes",
+    "issuedIn": "Units",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78fe"
+    },
+    "name": "Branula G24 (Yellow)",
+    "category": "Nursing",
+    "receivedIn": "Boxes",
+    "issuedIn": "Units",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a78ff"
+    },
+    "name": "Brufen 200mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7900"
+    },
+    "name": "Brufen 400mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7901"
+    },
+    "name": "Brufen Suspension 100ml",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "__v": 1,
+    "log": [],
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7903"
+    },
+    "name": "Brustan 100mls Suspension",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7904"
+    },
+    "name": "Brustan tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7905"
+    },
+    "name": "Buscopan Injection 20mg/ml",
+    "category": "Nursing",
+    "receivedIn": "Boxes",
+    "issuedIn": "Units",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7906"
+    },
+    "name": "Buscopan plus tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7907"
+    },
+    "name": "Calcium Gluconate Injection",
+    "category": "Nursing",
+    "receivedIn": "Boxes",
+    "issuedIn": "Units",
+    "deleted": true,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    },
+    "__v": 1,
+    "log": []
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7908"
+    },
+    "name": "zz21",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7909"
+    },
+    "name": "Carbamezapine 200mg Tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a790a"
+    },
+    "name": "Carvedilol 3.125mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a790b"
+    },
+    "name": "Catis Forte",
+    "category": "Drugs",
+    "receivedIn": "Packets",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a790d"
+    },
+    "name": "Cefalexin 125mg/5ml",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a790e"
+    },
+    "name": "Cefalexine 250mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a790f"
+    },
+    "name": "Cefalexine 500mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7910"
+    },
+    "name": "Cefixime 200mg Tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7911"
+    },
+    "name": "Cefixime 400mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7912"
+    },
+    "name": "Cefixime Suspension 100mg/5ml",
+    "category": "Drugs",
+    "receivedIn": "Bottles",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "__v": 1,
+    "log": [],
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7913"
+    },
+    "name": "ceflaxin 250mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Capsules",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7914"
+    },
+    "name": "ceflaxin 500mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Capsules",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7915"
+    },
+    "name": "Cefuroxime 250mg",
+    "category": "Drugs",
+    "receivedIn": "Units",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7916"
+    },
+    "name": "Cefuroxime 500mg",
+    "category": "Drugs",
+    "receivedIn": "Packets",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7918"
+    },
+    "name": "Celestamine",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a791a"
+    },
+    "name": "Cetrizine 10mg Tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a791b"
+    },
+    "name": "septrin clotrimoxazole",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a791c"
+    },
+    "name": "Cetrizine Syrup 60ml",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a791e"
+    },
+    "name": "Chlorphenamine (Piriton Injection) 10mg",
+    "category": "Nursing",
+    "receivedIn": "Boxes",
+    "issuedIn": "Units",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7920"
+    },
+    "name": "Chlorpromazine 100mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7921"
+    },
+    "name": "Cimetidine 400mg",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7923"
+    },
+    "name": "Ciprofloxacin 500mg tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7924"
+    },
+    "name": "Ciprofloxacin IV infusion 200mg/100ml",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Vials",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7925"
+    },
+    "name": "Claritromycin 500mg tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7926"
+    },
+    "name": "clatimazole",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7927"
+    },
+    "name": "Clean Gloves Latex 100's",
+    "category": "Nursing",
+    "receivedIn": "Boxes",
+    "issuedIn": "Packets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7929"
+    },
+    "name": "Clindamycin 150mg Caps",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Capsules",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a792a"
+    },
+    "name": "Clindamycin 300mg Caps",
+    "category": "Drugs",
+    "receivedIn": "Packets",
+    "issuedIn": "Capsules",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a792b"
+    },
+    "name": "Clotrimazole Cream",
+    "category": "Drugs",
+    "receivedIn": "Units",
+    "issuedIn": "Tubes",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a792c"
+    },
+    "name": "Compression Dressing (UNABOOT)",
+    "category": "Theatre",
+    "receivedIn": "Boxes",
+    "issuedIn": "Boxes",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a792d"
+    },
+    "name": "Cotrimoxazole 480mg Tabs (Septrin)",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a792e"
+    },
+    "name": "Cotrimoxazole Suspension 100ml (Septrin)",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a792f"
+    },
+    "name": "Cotrimoxazole Suspension 50ml (Septrin)",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7930"
+    },
+    "name": "Cotton wool 400g",
+    "category": "Nursing",
+    "receivedIn": "Rolls",
+    "issuedIn": "Rolls",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7931"
+    },
+    "name": "Cox B 200 mg (Celecoxib)",
+    "category": "Drugs",
+    "receivedIn": "Packets",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7932"
+    },
+    "name": "Crepe bandages 6\"",
+    "category": "Nursing",
+    "receivedIn": "Boxes",
+    "issuedIn": "Units",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7933"
+    },
+    "name": "Crepe Bandages 4\"",
+    "category": "Nursing",
+    "receivedIn": "Boxes",
+    "issuedIn": "Units",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7934"
+    },
+    "name": "Cyclopam Suspension 30mls",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Bottles",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7935"
+    },
+    "name": "Acyclovir 400mg Tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "__v": 1,
+    "log": [],
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7936"
+    },
+    "name": "Acyclovir Cream 10g",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tubes",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "__v": 1,
+    "log": [],
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7937"
+    },
+    "name": "Acyclovir Cream 5g",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tubes",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "__v": 1,
+    "log": [],
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7938"
+    },
+    "name": "Cytotec 200mg Tabs",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tablets",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "__v": 1,
+    "log": [],
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7939"
+    },
+    "name": "Debridace 15g Ointment",
+    "category": "Drugs",
+    "receivedIn": "Boxes",
+    "issuedIn": "Tubes",
+    "deleted": false,
+    "date": {
+      "$date": "2020-01-29T08:30:59.205Z"
+    },
+    "account": {
+      "$oid": "6411fc16948d5ae9fff89ada"
+    }
+  }
+]

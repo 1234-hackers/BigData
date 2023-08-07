@@ -1,0 +1,3142 @@
+[
+  {
+    "_id": {
+      "$oid": "62986a3166b53f835ec0a47a"
+    },
+    "log": [],
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "totalBefore": 0,
+    "bp": 0,
+    "discount": 0,
+    "vat": 0,
+    "price": 0,
+    "committed": true,
+    "discarded": false,
+    "item": {
+      "$oid": "62986a3166b53f835ec0a474"
+    },
+    "desc": "Initial addition by Root",
+    "batchNo": "default",
+    "store": {
+      "$oid": "620e0aab23fed5134223631a"
+    },
+    "addedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedOn": {
+      "$date": "2022-06-02T07:43:45.134Z"
+    },
+    "date": {
+      "$date": "2022-06-02T07:43:45.135Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62986a9b66b53f835ec0a48b"
+    },
+    "log": [],
+    "bulkCount": 1,
+    "containing": 100,
+    "total": 100,
+    "totalBefore": 0,
+    "bp": 0,
+    "discount": 0,
+    "vat": 0,
+    "price": 0,
+    "committed": true,
+    "discarded": false,
+    "item": {
+      "$oid": "62986a3166b53f835ec0a474"
+    },
+    "desc": "Direct receive by Root",
+    "batchNo": "default",
+    "store": {
+      "$oid": "620e0aab23fed5134223631a"
+    },
+    "addedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedOn": {
+      "$date": "2022-06-02T07:45:31.930Z"
+    },
+    "date": {
+      "$date": "2022-06-02T07:45:31.931Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62986b4e66b53f835ec0a50a"
+    },
+    "log": [],
+    "bulkCount": 1,
+    "containing": -50,
+    "total": 50,
+    "totalBefore": 100,
+    "bp": 0,
+    "discount": 0,
+    "vat": 0,
+    "price": 0,
+    "committed": true,
+    "discarded": false,
+    "item": {
+      "$oid": "62986a3166b53f835ec0a474"
+    },
+    "desc": "Request by Root from Pharmacy",
+    "batchNo": "default",
+    "store": {
+      "$oid": "620e0aab23fed5134223631a"
+    },
+    "addedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedOn": {
+      "$date": "2022-06-02T07:48:30.132Z"
+    },
+    "date": {
+      "$date": "2022-06-02T07:48:30.133Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62986b4e66b53f835ec0a510"
+    },
+    "log": [],
+    "bulkCount": 1,
+    "containing": 50,
+    "total": 50,
+    "totalBefore": 0,
+    "bp": 0,
+    "discount": 0,
+    "vat": 0,
+    "price": 0,
+    "committed": true,
+    "discarded": false,
+    "item": {
+      "$oid": "62986a3166b53f835ec0a474"
+    },
+    "desc": "Issued by Root from Main Store department",
+    "batchNo": "default",
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "addedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedOn": {
+      "$date": "2022-06-02T07:48:30.149Z"
+    },
+    "date": {
+      "$date": "2022-06-02T07:48:30.150Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62986c3166b53f835ec0a592"
+    },
+    "log": [],
+    "bulkCount": 1,
+    "containing": -10,
+    "total": 40,
+    "totalBefore": 50,
+    "bp": 0,
+    "discount": 0,
+    "vat": 0,
+    "price": 0,
+    "committed": true,
+    "discarded": false,
+    "item": {
+      "$oid": "62986a3166b53f835ec0a474"
+    },
+    "desc": "Request by Root from Lab issued by Root",
+    "batchNo": "default",
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "addedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedOn": {
+      "$date": "2022-06-02T07:52:17.438Z"
+    },
+    "date": {
+      "$date": "2022-06-02T07:52:17.438Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62986d2266b53f835ec0a5ee"
+    },
+    "log": [],
+    "bulkCount": 1,
+    "containing": 100,
+    "total": 0,
+    "totalBefore": 0,
+    "bp": 50,
+    "discount": 5,
+    "vat": 16,
+    "price": 0,
+    "committed": false,
+    "discarded": false,
+    "item": {
+      "$oid": "62986a3166b53f835ec0a474"
+    },
+    "desc": "Invoice no #r579i03jn from Shell Pharmaceuticals received by Root",
+    "batchNo": "default",
+    "store": {
+      "$oid": "620e0aab23fed5134223631a"
+    },
+    "addedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedOn": null,
+    "date": {
+      "$date": "2022-06-02T07:56:18.069Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62986d8a66b53f835ec0a606"
+    },
+    "log": [],
+    "bulkCount": 1,
+    "containing": 10,
+    "total": 60,
+    "totalBefore": 50,
+    "bp": 50,
+    "discount": 0,
+    "vat": 16,
+    "price": 0,
+    "committed": true,
+    "discarded": false,
+    "item": {
+      "$oid": "62986a3166b53f835ec0a474"
+    },
+    "desc": "Invoice no #r8043 from Sudicon Ltd received by Root",
+    "batchNo": "default",
+    "store": {
+      "$oid": "620e0aab23fed5134223631a"
+    },
+    "addedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedBy": {
+      "$oid": "61fc1e2279744c06e881a04f"
+    },
+    "committedOn": {
+      "$date": "2022-06-02T07:58:02.553Z"
+    },
+    "date": {
+      "$date": "2022-06-02T07:58:02.554Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bd8"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78c9"
+    },
+    "name": "AC forte tabs",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bd9"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78ca"
+    },
+    "name": "Aceclofenac SR 200mg Caps",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bda"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78cb"
+    },
+    "name": "Aceclofenac Gel",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bdb"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78cc"
+    },
+    "name": "ACP (Aceclofenac + Paracetamol)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 2360,
+    "total": 2360,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bdc"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78cd"
+    },
+    "name": "Levofloxacin 750mg Tabs",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 280,
+    "total": 280,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bdd"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78ce"
+    },
+    "name": "Adol suppositories 125 mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 444,
+    "total": 444,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bde"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78cf"
+    },
+    "name": "Adol suppositories 250mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 247,
+    "total": 247,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bdf"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78d0"
+    },
+    "name": "AL syrup 60ml (Artemether Lumefentrine)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7be0"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78d1"
+    },
+    "name": "AL (Artefan) Tablets 24's",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 164,
+    "total": 164,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7be1"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78d2"
+    },
+    "name": "ABZ Tabs (Albendazole)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 18,
+    "total": 18,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7be2"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78d3"
+    },
+    "name": "ABZ Suspension (Albendazole)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 18,
+    "total": 18,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7be3"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78d4"
+    },
+    "name": "Allopurinol 300mg Tabs",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 1095,
+    "total": 1095,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7be5"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78d6"
+    },
+    "name": "Amitriptyline 25mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 4130,
+    "total": 4130,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7be6"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78d7"
+    },
+    "name": "Amlodipine 10mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 2955,
+    "total": 2955,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7be7"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78d8"
+    },
+    "name": "Amlodipine 5mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 388,
+    "total": 388,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7be8"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78d9"
+    },
+    "name": "Amoxicillin 250mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 1620,
+    "total": 1620,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7be9"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78da"
+    },
+    "name": "Amoxicillin 500mg Caps",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 545,
+    "total": 545,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bea"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78db"
+    },
+    "name": "Amoxiclav 228mg/5ml suspension",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7beb"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78dc"
+    },
+    "name": "Amoxiclav 375mg Tabs (Bactoclav)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bec"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78dd"
+    },
+    "name": "Amoxiclav 457mg/5ml suspension",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 26,
+    "total": 26,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bed"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78de"
+    },
+    "name": "Amoxiclav 625mg Tabs (Inficlav)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 140,
+    "total": 140,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bef"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78e0"
+    },
+    "name": "Ampiclox Neonatol Drops",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bf1"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78e2"
+    },
+    "name": "Apha plus",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bf2"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78e3"
+    },
+    "name": "Apha sp",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bf3"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78e4"
+    },
+    "name": "Ascard 75mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bf5"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78e6"
+    },
+    "name": "Asprin 300mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bf6"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78e7"
+    },
+    "name": "Atenolol 25mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bf7"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78e8"
+    },
+    "name": "Atenolol 50mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 219,
+    "total": 219,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bf9"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78ea"
+    },
+    "name": "Autoclave tape",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bfa"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78eb"
+    },
+    "name": "Azithromycin Suspension 15ml",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 21,
+    "total": 21,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bfb"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78ec"
+    },
+    "name": "Azithromycin Tabs 500mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 98,
+    "total": 98,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bfc"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78ed"
+    },
+    "name": "Beazyl Beazocate 25%",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bfd"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78ee"
+    },
+    "name": "Benaflu Caps",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bfe"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78ef"
+    },
+    "name": "Benagas 100ml(Antacid)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7bff"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78f0"
+    },
+    "name": "benahist cough syrup 100ml",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 4,
+    "total": 4,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c00"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78f1"
+    },
+    "name": "benasten V3 pessaris",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c01"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78f2"
+    },
+    "name": "Benasten B Cream",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 5,
+    "total": 5,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c02"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78f3"
+    },
+    "name": "Benzylpenicilin Inj",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c03"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78f4"
+    },
+    "name": "Benzhexol 5mg Tabs",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 243,
+    "total": 243,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c04"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78f5"
+    },
+    "name": "Betapyn",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c05"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78f6"
+    },
+    "name": "Betason Cream",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c06"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78f7"
+    },
+    "name": "BG Glutamin 100mls",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c07"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78f8"
+    },
+    "name": "BG Glutamin plus tabs",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c08"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78f9"
+    },
+    "name": "Bactigrass 10cm x 40cm (Chlorohexidine gauze)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 152,
+    "total": 152,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c09"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78fa"
+    },
+    "name": "Bisacodyl 5mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c0a"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78fb"
+    },
+    "name": "Branula G18(Green)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 103,
+    "total": 103,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c0b"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78fc"
+    },
+    "name": "Branula G20 (Pink)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 967,
+    "total": 967,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c0c"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78fd"
+    },
+    "name": "Branula G22(Blue)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 249,
+    "total": 249,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c0d"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78fe"
+    },
+    "name": "Branula G24 (Yellow)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 299,
+    "total": 299,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c0e"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a78ff"
+    },
+    "name": "Brufen 200mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 1309,
+    "total": 1309,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c0f"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7900"
+    },
+    "name": "Brufen 400mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 479,
+    "total": 479,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c10"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7901"
+    },
+    "name": "Brufen Suspension 100ml",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 48,
+    "total": 48,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c12"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7903"
+    },
+    "name": "Brustan 100mls Suspension",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 186,
+    "total": 186,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c13"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7904"
+    },
+    "name": "Brustan tabs",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 420,
+    "total": 420,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c14"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7905"
+    },
+    "name": "Buscopan Injection 20mg/ml",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 192,
+    "total": 192,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c15"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7906"
+    },
+    "name": "Buscopan plus tabs",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 6024,
+    "total": 6024,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c16"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7907"
+    },
+    "name": "Calcium Gluconate Injection",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c17"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7908"
+    },
+    "name": "zz21",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 19,
+    "total": 19,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c18"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7909"
+    },
+    "name": "Carbamezapine 200mg Tabs",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 180,
+    "total": 180,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c19"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a790a"
+    },
+    "name": "Carvedilol 3.125mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c1a"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a790b"
+    },
+    "name": "Catis Forte",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 1535,
+    "total": 1535,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c1c"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a790d"
+    },
+    "name": "Cefalexin 125mg/5ml",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c1d"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a790e"
+    },
+    "name": "Cefalexine 250mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c1e"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a790f"
+    },
+    "name": "Cefalexine 500mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c1f"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7910"
+    },
+    "name": "Cefixime 200mg Tabs",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 885,
+    "total": 885,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c20"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7911"
+    },
+    "name": "Cefixime 400mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 285,
+    "total": 285,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c21"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7912"
+    },
+    "name": "Cefixime Suspension 100mg/5ml",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c22"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7913"
+    },
+    "name": "ceflaxin 250mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c23"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7914"
+    },
+    "name": "ceflaxin 500mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c24"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7915"
+    },
+    "name": "Cefuroxime 250mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 290,
+    "total": 290,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c25"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7916"
+    },
+    "name": "Cefuroxime 500mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 10579,
+    "total": 10579,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c27"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7918"
+    },
+    "name": "Celestamine",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 2976,
+    "total": 2976,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c29"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a791a"
+    },
+    "name": "Cetrizine 10mg Tabs",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 165,
+    "total": 165,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c2a"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a791b"
+    },
+    "name": "septrin clotrimoxazole",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c2b"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a791c"
+    },
+    "name": "Cetrizine Syrup 60ml",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 2,
+    "total": 2,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c2d"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a791e"
+    },
+    "name": "Chlorphenamine (Piriton Injection) 10mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 248,
+    "total": 248,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c2f"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7920"
+    },
+    "name": "Chlorpromazine 100mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 98,
+    "total": 98,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c30"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7921"
+    },
+    "name": "Cimetidine 400mg",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c32"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7923"
+    },
+    "name": "Ciprofloxacin 500mg tabs",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 500,
+    "total": 500,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c33"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7924"
+    },
+    "name": "Ciprofloxacin IV infusion 200mg/100ml",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 35,
+    "total": 35,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c34"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7925"
+    },
+    "name": "Claritromycin 500mg tabs",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 100,
+    "total": 100,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c35"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7926"
+    },
+    "name": "clatimazole",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c36"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7927"
+    },
+    "name": "Clean Gloves Latex 100's",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 1718,
+    "total": 1718,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c38"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7929"
+    },
+    "name": "Clindamycin 150mg Caps",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 470,
+    "total": 470,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c39"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a792a"
+    },
+    "name": "Clindamycin 300mg Caps",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 2150,
+    "total": 2150,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c3a"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a792b"
+    },
+    "name": "Clotrimazole Cream",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c3b"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a792c"
+    },
+    "name": "Compression Dressing (UNABOOT)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 4,
+    "total": 4,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c3c"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a792d"
+    },
+    "name": "Cotrimoxazole 480mg Tabs (Septrin)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 960,
+    "total": 960,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c3d"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a792e"
+    },
+    "name": "Cotrimoxazole Suspension 100ml (Septrin)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c3e"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a792f"
+    },
+    "name": "Cotrimoxazole Suspension 50ml (Septrin)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 0,
+    "total": 0,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c3f"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7930"
+    },
+    "name": "Cotton wool 400g",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 128,
+    "total": 128,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c40"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7931"
+    },
+    "name": "Cox B 200 mg (Celecoxib)",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 10806,
+    "total": 10806,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62a3da073458deaf130a7c41"
+    },
+    "item": {
+      "$oid": "62a3da073458deaf130a7932"
+    },
+    "name": "Crepe bandages 6\"",
+    "desc": "Update from Hisani V1",
+    "batchNo": "default",
+    "bulkCount": 1,
+    "containing": 1109,
+    "total": 1109,
+    "store": {
+      "$oid": "62175b85fcfb656163d1ceac"
+    },
+    "totalBefore": 0,
+    "addedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "date": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    },
+    "committed": true,
+    "committedBy": {
+      "$oid": "62a313cbe672ab246b32a71e"
+    },
+    "committedOn": {
+      "$date": "2022-06-10T23:55:51.344Z"
+    }
+  }
+]

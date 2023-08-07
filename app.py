@@ -27,7 +27,6 @@ import random
 uri = "mongodb://localhost:27017/"
 client = MongoClient(uri)
 database = client['hisani']
-database2 = client['hisani_accounts']
 users_collection = database['accounts']
 patients = database['patients']
 transactions = database['transactions']
@@ -37,6 +36,10 @@ beds = database['beds']
 ilt = database['inventoryledgerentries']
 pP = database['patientplans']
 QueEnt = database['queueentries']
+
+
+latest_files = database['latest']
+
 
 
 container = st.container()
@@ -115,7 +118,7 @@ def data_visual(data):
 
 
 import time
-def generate_data(col,folder):
+def generate_data(col,folder,col_name):
     st.write("Fetch latest Data For Analysis For " + str(folder[9:]))
     def try_connection():
         if client:
@@ -141,16 +144,23 @@ def generate_data(col,folder):
             with open(folder + de_time +'.json', 'w') as file:
                 file.write(json_data)
                 file.close()
-            bar = st.progress(0,"COllecting Data..."  )
+            bar = st.progress(0,"Collecting Data..."  )
             for x in range(100):
                 time.sleep(0.1)
-                bar.progress(x + 1,"COllecting Data...")
-            return st.success("New Data Collected. Upload Latest File For Analysis")
+                bar.progress(x + 1,"Collecting Data..." )
+
+            res_col = col_name
+            latest_name = str(folder + de_time +'.json')
+            ex = latest_files.find_one({"colle" : res_col})
+            if  not ex:
+                latest_files.insert_one({"colle": res_col ,"the_file" : latest_name})
+            else:
+                latest_files.find_one_and_update({"colle" : res_col } , {'$set' : {"file" :latest_name}})
+
+            return st.success("New Data Collected. Upload Latest File For Analysis" + latest_name)
 
         if cond == "error":
                 return st.warning("Could Not Connect To Database")
-    
-
 
     prompt = st.button("Update Data" , key="update_data" )
     if prompt:
@@ -193,7 +203,12 @@ def patients_col():
     
     to_read  = st.sidebar.file_uploader("Upload a Json File")
     # options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
-    defau = "jsonData/patient/20230621 124514893477.json"
+    col_name =  "patients"
+    defa = latest_files.find_one({"colle" : col_name})
+    if defa:
+        defau = defa['the_file']
+    else:
+        defau = "jsonData/patient/20230807 112523714003.json"
     if to_read is None:
         to_read = defau
     def top_menu():
@@ -353,14 +368,20 @@ def patients_col():
                 data_visual(data)
             
             if de_menu == 'Update Data':
-                generate_data(col,folder)
+                generate_data(col,folder,col_name)
         
 
 def transactions_col():
     col = transactions
     folder ='jsonData/transactions/'
     to_read = None
-    defau = "jsonData/transactions/20230626 131506324764.json"
+
+    col_name =  "transactions"
+    defa = latest_files.find_one({"colle" : col_name})
+    if defa:
+        defau = defa['the_file']
+    else:
+        defau = "jsonData/transactions/20230626 131506324764.json"
 
     
     with st.sidebar:
@@ -462,7 +483,7 @@ def transactions_col():
             if de_menu == 'Data Visualization':
                 data_visual(data)
             if de_menu == 'Update Data':
-                generate_data(col,folder)
+                generate_data(col,folder,col_name)
     create_sideMenu()
     
 def beds_col():
@@ -472,7 +493,12 @@ def beds_col():
     with st.sidebar:
         options = top_menu()
     to_read = st.sidebar.file_uploader("Upload a Json File")
-    defau = "jsonData/beds/20230630 163457604253.json"
+    col_name =  "beds"
+    defa = latest_files.find_one({"colle" : col_name})
+    if defa:
+        defau = defa['the_file']
+    else:
+            defau = "jsonData/beds/20230630 163457604253.json"
     if to_read is None:
         to_read = defau
     def group_by_sum_bed(data):
@@ -529,7 +555,7 @@ def beds_col():
             if options == 'Data Visualization':
                 data_visual(data)
             if options == 'Update Data':
-                generate_data(col,folder)
+                generate_data(col,folder,col_name)
     create_sideMenu()
 
 #@login_required
@@ -539,7 +565,12 @@ def invent_items_col():
     to_read = None
     col = inv
     to_read  = st.sidebar.file_uploader("Upload a Json File")
-    defau = "jsonData/invent_items/20230630 180431229613.json"
+    col_name =  "inventoryitems"
+    defa = latest_files.find_one({"colle" : col_name})
+    if defa:
+        defau = defa['the_file']
+    else:
+        defau = "jsonData/invent_items/20230630 180431229613.json"
     if to_read is None:
         to_read = defau
     def analyze(data):
@@ -594,7 +625,7 @@ def invent_items_col():
             if options == 'Data Visualization':
                 data_visual(data)
             if options == 'Update Data':
-                generate_data(col,folder)
+                generate_data(col,folder,col_name)
     create_sideMenu()
 
 
@@ -606,7 +637,12 @@ def single_ordersItems():
     col = inv
     options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
     to_read  = st.sidebar.file_uploader("Upload a Json File")
-    defau = "jsonData/diagnoses/20230630 180431229613.json"
+    col_name =  "singleorderitems"
+    defa = latest_files.find_one({"colle" : col_name})
+    if defa:
+        defau = defa['the_file']
+    else:
+        defau = "jsonData/diagnoses/20230630 180431229613.json"
     if to_read is None:
         to_read = defau
     def analyze(data):
@@ -634,7 +670,7 @@ def single_ordersItems():
             if options == 'Data Visualization':
                 data_visual(data)
             if options == 'Update Data':
-                generate_data(col,folder)
+                generate_data(col,folder,col_name)
     create_sideMenu()
 
 
@@ -646,7 +682,12 @@ def diagnoses_col():
     with st.sidebar:
         options = top_menu() 
     to_read  = st.sidebar.file_uploader("Upload a Json File")
-    defau = "jsonData/diagnoses/20230724 132130022123.json"
+    col_name =  "diagnoses"
+    defa = latest_files.find_one({"colle" : col_name})
+    if defa:
+        defau = defa['the_file']
+    else:
+        defau = "jsonData/diagnoses/20230724 132130022123.json"
     if to_read is None:
         to_read = defau
     def analyze(data):
@@ -684,7 +725,7 @@ def diagnoses_col():
                 figure = pE.pie(data , names='code' )
                 st.plotly_chart(figure) 
             if options == 'Update Data':
-                generate_data(col,folder)
+                generate_data(col,folder,col_name)
     create_sideMenu()
 
 
@@ -692,9 +733,15 @@ def diagnoses_col():
 
 def accounts_col():
     col = accounts
+    col_name = "accounts"
     folder ='jsonData/diagnoses/'
     options = st.sidebar.radio('Pages' , options=['Data Analysis' , 'Data Visualization','Update Data'])
-    defau = "jsonData/accounts/20230615 194837504100.json"
+    col_name =  "accounts"
+    defa = latest_files.find_one({"colle" : col_name})
+    if defa:
+        defau = defa['the_file']
+    else:
+        defau = "jsonData/accounts/20230615 194837504100.json"
     to_read  = st.sidebar.file_uploader("Upload a Json File")
     if to_read is None:
         to_read = defau
@@ -723,7 +770,7 @@ def accounts_col():
             if options == 'Data Visualization':
                 data_visual(data)
             if options == 'Update Data':
-                generate_data(col,folder)
+                generate_data(col,folder,col_name)
     create_sideMenu()
     
     #:bar_chart:,
@@ -732,7 +779,12 @@ def invent_ledger_items():
     col = ilt
     folder ='jsonData/invent_ledger_items/'
     to_read = None
-    defau = "jsonData/invent_ledger_items/20230729 225406968772.json"
+    col_name =  "inventoryledgerentries"
+    defa = latest_files.find_one({"colle" : col_name})
+    if defa:
+        defau = defa['the_file']
+    else:
+        defau = "jsonData/invent_ledger_items/20230729 225406968772.json"
     
     to_read  = st.sidebar.file_uploader("Upload a Json File")
     if to_read is None:
@@ -766,7 +818,7 @@ def invent_ledger_items():
             if options == 'Data Visualization':
                 data_visual(data)
             if options == 'Update Data':
-                generate_data(col,folder)
+                generate_data(col,folder,col_name)
     create_sideMenu()
 
 
@@ -776,7 +828,12 @@ def patients_plans():
     col = pP
     folder ='jsonData/patientPlans/'
     to_read = None
-    defau = "jsonData/patientPlans/20230729 231141181965.json"
+    col_name =  "patientsplans"
+    defa = latest_files.find_one({"colle" : col_name})
+    if defa:
+        defau = defa['the_file']
+    else:
+        defau = "jsonData/patientPlans/20230729 231141181965.json"
     
     to_read  = st.sidebar.file_uploader("Upload a Json File")
     if to_read is None:
@@ -806,7 +863,7 @@ def patients_plans():
             if options == 'Data Visualization':
                 data_visual(data)
             if options == 'Update Data':
-                generate_data(col,folder)
+                generate_data(col,folder,col_name)
     create_sideMenu()
 
 
@@ -814,7 +871,12 @@ def queueentries():
     col = QueEnt
     folder ='jsonData/queueentries/'
     to_read = None
-    defau = "jsonData/queueentries/20230802 130133492888.json"
+    col_name =  "queueentries"
+    defa = latest_files.find_one({"colle" : col_name})
+    if defa:
+        defau = defa['the_file']
+    else:
+        defau = "jsonData/queueentries/20230802 130133492888.json"
     
     to_read  = st.sidebar.file_uploader("Upload a Json File")
     if to_read is None:
@@ -866,7 +928,7 @@ def queueentries():
             if options == 'Data Visualization':
                 data_visual(data)
             if options == 'Update Data':
-                generate_data(col,folder)
+                generate_data(col,folder,col_name)
     create_sideMenu()
 
 
